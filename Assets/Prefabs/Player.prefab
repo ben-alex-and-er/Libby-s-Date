@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 3406062815373041655}
   - component: {fileID: 3249381125706882425}
   - component: {fileID: 2840147372437348234}
+  - component: {fileID: 1239377145327081450}
   - component: {fileID: 8138860167904540285}
   - component: {fileID: 7855412213743925957}
   - component: {fileID: 5481467438246370748}
-  - component: {fileID: 3123569057274471072}
+  - component: {fileID: 7344379345474362255}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -50,10 +51,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 5
-  jumpSpeed: 5
+  acceleration: 120
+  friction: 60
+  windResistance: 60
+  jumpForce: 13
+  earlyJumpBuffer: 0.2
+  gravity: 40
+  maxGravitySpeed: 40
+  shortJumpGravityModifier: 3
+  groundingForce: -1.5
+  groundedDistanceBuffer: 0.2
   animator: {fileID: 5481467438246370748}
   rb: {fileID: 7855412213743925957}
+  capsuleCollider: {fileID: 7344379345474362255}
   character: {fileID: 2840147372437348234}
+  spriteRenderer: {fileID: 8138860167904540285}
+  playerInput: {fileID: 1239377145327081450}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!114 &2840147372437348234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,7 +82,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086d42c8bab037d4aba9024c50551505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  facingRight: 0
+--- !u!114 &1239377145327081450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5492204586698892532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33fcc62c64732aa4fbf62b83440e19d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpInput: Jump
+  horizontalInput: Horizontal
+  verticalInput: Vertical
+  playerMovement: {fileID: 3249381125706882425}
 --- !u!212 &8138860167904540285
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -167,8 +198,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!60 &3123569057274471072
-PolygonCollider2D:
+--- !u!70 &7344379345474362255
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -200,19 +231,5 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.4375, y: 0.90625}
-    newSize: {x: 0.375, y: 0.875}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.21875, y: 0.453125}
-      - {x: -0.21875, y: -0.453125}
-      - {x: 0.21875, y: -0.453125}
-      - {x: 0.21875, y: 0.453125}
-  m_UseDelaunayMesh: 0
+  m_Size: {x: 0.4375, y: 0.90625}
+  m_Direction: 0
