@@ -13,6 +13,9 @@ namespace Assets.Scripts.Character
 		private uint maxHealth;
 
 
+		public Direction FacingDirection { get; private set; }
+
+
 		private void Awake()
 		{
 			currentHealth = maxHealth;
@@ -30,5 +33,29 @@ namespace Assets.Scripts.Character
 
 		public bool IsDead()
 			=> currentHealth == 0;
+
+
+		public void FaceNone()
+		{
+			FacingDirection = Direction.NONE;
+		}
+
+		public void FaceRight()
+		{
+			FacingDirection = Direction.RIGHT;
+		}
+
+		public void FaceLeft()
+		{
+			FacingDirection = Direction.LEFT;
+		}
+
+
+		public enum Direction
+		{
+			NONE,
+			LEFT,
+			RIGHT
+		}
 	}
 }

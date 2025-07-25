@@ -81,34 +81,13 @@ namespace Assets.Scripts.Movement
 		private static readonly int idle = Animator.StringToHash("Idle");
 
 
-		private Inputs inputs;
+		private MovementInputs inputs;
 		private Vector2 velocityThisFrame;
 		private int currentAnimationState;
 		private float jumpBufferTimer = 0f;
 		private bool isGrounded;
 		private bool shortJump;
 
-
-		private void Awake()
-		{
-			if (animator == null)
-				animator = GetComponent<Animator>();
-
-			if (rb == null)
-				rb = GetComponent<Rigidbody2D>();
-
-			if (capsuleCollider == null)
-				capsuleCollider = GetComponent<CapsuleCollider2D>();
-
-			if (character == null)
-				character = GetComponent<Character>();
-
-			if (spriteRenderer == null)
-				spriteRenderer = GetComponent<SpriteRenderer>();
-
-			if (playerInput == null)
-				playerInput = GetComponent<PlayerInput>();
-		}
 
 		private void FixedUpdate()
 		{
@@ -126,7 +105,7 @@ namespace Assets.Scripts.Movement
 		}
 
 
-		public void SetInputs(Inputs inputs)
+		public void SetInputs(MovementInputs inputs)
 		{
 			this.inputs = inputs;
 
@@ -229,14 +208,18 @@ namespace Assets.Scripts.Movement
 				currentAnimationState = state;
 			}
 
-
-			if (velocityThisFrame.x > 0)
+			if (velocityThisFrame.x != 0)
 			{
-				spriteRenderer.flipX = false;
-			}
-			else
-			{
-				spriteRenderer.flipX = true;
+				if (velocityThisFrame.x > 0)
+				{
+					character.FaceRight();
+					spriteRenderer.flipX = false;
+				}
+				else
+				{
+					character.FaceLeft();
+					spriteRenderer.flipX = true;
+				}
 			}
 		}
 
