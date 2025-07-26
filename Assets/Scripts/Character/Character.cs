@@ -1,3 +1,4 @@
+using Assets.Scripts.UI.Healthbar;
 using System;
 using UnityEngine;
 
@@ -12,6 +13,9 @@ namespace Assets.Scripts.Character
 		[SerializeField]
 		private uint maxHealth;
 
+		[SerializeField]
+		private HealthBar healthBar;
+
 
 		public Direction FacingDirection { get; private set; }
 
@@ -23,12 +27,20 @@ namespace Assets.Scripts.Character
 
 		public void TakeDamage(uint value)
 		{
-			currentHealth = Math.Max(currentHealth - value, 0);
+			var damage = Math.Min(value, currentHealth);
+
+			currentHealth -= damage;
+
+			healthBar.TakeDamage(damage);
 		}
 
 		public void Heal(uint value)
 		{
-			currentHealth = Math.Min(currentHealth + value, maxHealth);
+			var heal = maxHealth - currentHealth;
+
+			value = Math.Min(value, heal);
+
+			currentHealth += value;
 		}
 
 		public bool IsDead()
