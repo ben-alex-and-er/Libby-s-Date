@@ -10,7 +10,7 @@ namespace Assets.Scripts.Movement
 	{
 		[Header("Movement")]
 		[SerializeField]
-		protected float movementSpeed = 14;
+		protected float movementSpeed = 5;
 
 		[SerializeField]
 		protected float acceleration = 120;
@@ -24,7 +24,7 @@ namespace Assets.Scripts.Movement
 
 		[Header("Jumping")]
 		[SerializeField]
-		protected float jumpForce = 36;
+		protected float jumpForce = 13;
 
 		[SerializeField]
 		protected float earlyJumpBuffer = 0.2f;
@@ -46,7 +46,7 @@ namespace Assets.Scripts.Movement
 
 		[Header("Other")]
 		[SerializeField]
-		protected float groundedDistanceBuffer = 0.1f;
+		protected float groundedDistanceBuffer = 0.2f;
 
 
 		[Header("Components")]
