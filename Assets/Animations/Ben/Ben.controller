@@ -31,7 +31,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player
+  m_Name: Ben
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -67,7 +67,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: ae02ea13820b6314f9c1d8eccb0b9b26, type: 2}
+  m_Motion: {fileID: 7400000, guid: 72cc1f9794ea7cc47bca898e84aba921, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -93,7 +93,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 7b54bd3507ce4c144865bab90afa4dd3, type: 2}
+  m_Motion: {fileID: 7400000, guid: 50e0a5c0bd9bb68489c04a821be72ac4, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: SidewaysFlip
