@@ -17,9 +17,6 @@ namespace Assets.Scripts.Movement
 		[SerializeField]
 		private float delay = 0.3f;
 
-		[SerializeField]
-		private float movementSpeed = 5;
-
 
 		[Header("Components")]
 		[SerializeField]
@@ -47,30 +44,28 @@ namespace Assets.Scripts.Movement
 			{
 				var (_, position) = positionQueue.Dequeue();
 
-				var adjustedPosition = position + offset;
-
-				var state = GetAnimationState(adjustedPosition);
-
-				if (state != currentAnimationState)
-				{
-					animator.CrossFade(state, 0, 0);
-					currentAnimationState = state;
-				}
-
-				if (adjustedPosition.x != transform.position.x)
-				{
-					if (adjustedPosition.x > transform.position.x)
-					{
-						spriteRenderer.flipX = false;
-					}
-					else
-					{
-						spriteRenderer.flipX = true;
-					}
-				}
-
-				transform.position = adjustedPosition;
+				MoveTowards(position);
 			}
+		}
+
+		private void MoveTowards(Vector3 position)
+		{
+			var adjustedPosition = position + offset;
+
+			var state = GetAnimationState(adjustedPosition);
+
+			if (state != currentAnimationState)
+			{
+				animator.CrossFade(state, 0, 0);
+				currentAnimationState = state;
+			}
+
+			if (adjustedPosition.x != transform.position.x)
+			{
+				spriteRenderer.flipX = adjustedPosition.x <= transform.position.x;
+			}
+
+			transform.position = adjustedPosition;
 		}
 
 		private int GetAnimationState(Vector3 target)
