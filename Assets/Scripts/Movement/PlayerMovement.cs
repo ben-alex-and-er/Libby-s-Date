@@ -18,7 +18,7 @@ namespace Assets.Scripts.Movement
 		private Animator animator;
 
 		[SerializeField]
-		private Character character;
+		private CharacterDirection characterDirection;
 
 		[SerializeField]
 		private SpriteRenderer spriteRenderer;
@@ -94,12 +94,12 @@ namespace Assets.Scripts.Movement
 			{
 				if (velocityThisFrame.x > 0)
 				{
-					character.FaceRight();
+					characterDirection.FaceRight();
 					spriteRenderer.flipX = false;
 				}
 				else
 				{
-					character.FaceLeft();
+					characterDirection.FaceLeft();
 					spriteRenderer.flipX = true;
 				}
 			}

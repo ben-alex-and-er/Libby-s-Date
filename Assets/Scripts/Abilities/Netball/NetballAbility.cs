@@ -23,12 +23,12 @@ namespace Assets.Scripts.Abilities.Netball
 			hasNetball = true;
 		}
 
-		public void TryThrowNetball(Character.Direction direction)
+		public void TryThrowNetball(CharacterDirection.Direction direction)
 		{
 			if (!foundNetball)
 				return;
 
-			if (direction == Character.Direction.NONE)
+			if (direction == CharacterDirection.Direction.NONE)
 				return;
 
 			if (hasNetball)
@@ -40,7 +40,7 @@ namespace Assets.Scripts.Abilities.Netball
 			hasNetball = true;
 		}
 
-		private void ThrowNetball(Character.Direction direction)
+		private void ThrowNetball(CharacterDirection.Direction direction)
 		{
 			netball.Thrown(direction);
 			hasNetball = false;

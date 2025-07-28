@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b371740d3be36c142859171204858c2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 2840147372437348234}
+  characterDirection: {fileID: 0}
   netballAbility: {fileID: 902744584482087238}
 --- !u!1 &5492204586698892532
 GameObject:
@@ -59,6 +59,7 @@ GameObject:
   - component: {fileID: 3249381125706882425}
   - component: {fileID: 2840147372437348234}
   - component: {fileID: 1239377145327081450}
+  - component: {fileID: 4248389924094563854}
   - component: {fileID: 8138860167904540285}
   - component: {fileID: 7855412213743925957}
   - component: {fileID: 5481467438246370748}
@@ -109,15 +110,14 @@ MonoBehaviour:
   shortJumpGravityModifier: 3
   groundingForce: -1.5
   groundedDistanceBuffer: 0.2
-  animator: {fileID: 5481467438246370748}
   rb: {fileID: 7855412213743925957}
   capsuleCollider: {fileID: 7344379345474362255}
-  character: {fileID: 2840147372437348234}
-  spriteRenderer: {fileID: 8138860167904540285}
-  playerInput: {fileID: 1239377145327081450}
   playerLayer:
     serializedVersion: 2
     m_Bits: 1
+  animator: {fileID: 5481467438246370748}
+  characterDirection: {fileID: 4248389924094563854}
+  spriteRenderer: {fileID: 8138860167904540285}
 --- !u!114 &2840147372437348234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,6 +151,18 @@ MonoBehaviour:
   netballInput: Netball
   playerMovement: {fileID: 3249381125706882425}
   abilities: {fileID: 6217115615974392498}
+--- !u!114 &4248389924094563854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5492204586698892532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9339fa3a52974447bb640616f766d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &8138860167904540285
 SpriteRenderer:
   m_ObjectHideFlags: 0
