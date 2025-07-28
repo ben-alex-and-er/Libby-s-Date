@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 
@@ -16,6 +15,12 @@ namespace Assets.Scripts.Movement
 
 		[SerializeField]
 		private float delay = 0.3f;
+
+		[SerializeField]
+		private float xLerp = 10f;
+
+		[SerializeField]
+		private float yLerp = 100f;
 
 
 		[Header("Components")]
@@ -60,19 +65,25 @@ namespace Assets.Scripts.Movement
 				currentAnimationState = state;
 			}
 
-			if (adjustedPosition.x != transform.position.x)
+			if (!IsVeryClose(adjustedPosition.x, transform.position.x))
 			{
 				spriteRenderer.flipX = adjustedPosition.x <= transform.position.x;
 			}
 
-			transform.position = adjustedPosition;
+			var x = Mathf.Lerp(transform.position.x, adjustedPosition.x, Time.deltaTime * xLerp);
+			var y = Mathf.Lerp(transform.position.y, adjustedPosition.y, Time.deltaTime * yLerp);
+
+			transform.position = new Vector3(x, y);
 		}
 
 		private int GetAnimationState(Vector3 target)
 		{
-			var state = target.x != transform.position.x ? running : idle;
+			var state = IsVeryClose(target.x, transform.position.x) ? idle : running;
 
 			return state;
 		}
+
+		private bool IsVeryClose(float float1, float float2)
+			=> Mathf.Abs(float1 - float2) < 0.01f;
 	}
 }
