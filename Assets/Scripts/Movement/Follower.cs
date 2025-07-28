@@ -1,17 +1,24 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 
 namespace Assets.Scripts.Movement
 {
-	public class Follower : CharacterMovement
+	public class Follower : MonoBehaviour
 	{
 		[Header("Follower")]
 		[SerializeField]
 		private Transform objectToFollow;
 
 		[SerializeField]
-		private float distanceFromObject;
+		private Vector3 offset;
+
+		[SerializeField]
+		private float delay = 0.3f;
+
+		[SerializeField]
+		private float movementSpeed = 5;
 
 
 		[Header("Components")]
@@ -25,71 +32,50 @@ namespace Assets.Scripts.Movement
 		private static readonly int running = Animator.StringToHash("Running");
 		private static readonly int idle = Animator.StringToHash("Idle");
 
+		private readonly Queue<(float time, Vector3 position)> positionQueue = new();
+
 
 		private int currentAnimationState;
 
 
-		protected override void Move()
+		void Update()
 		{
-			var distance = objectToFollow.position - transform.position;
+			// Record player position at intervals
+			positionQueue.Enqueue((Time.time, objectToFollow.position));
 
-			if (distance.magnitude < distanceFromObject)
+			if (Time.time > positionQueue.Peek().time + delay)
 			{
-				velocityThisFrame.x = 0;
-				return;
-			}
+				var (_, position) = positionQueue.Dequeue();
 
-			if (distance.x > 0)
-			{
-				velocityThisFrame.x = Mathf.MoveTowards(velocityThisFrame.x, 1 * movementSpeed, acceleration * Time.fixedDeltaTime);
-			}
-			else
-			{
-				velocityThisFrame.x = Mathf.MoveTowards(velocityThisFrame.x, -1 * movementSpeed, acceleration * Time.fixedDeltaTime);
-			}
-		}
+				var adjustedPosition = position + offset;
 
-		protected override void Gravity()
-		{
-			if (isGrounded && velocityThisFrame.y <= 0f)
-			{
-				velocityThisFrame.y = groundingForce;
-			}
-			else
-			{
-				var inAirGravity = gravity;
+				var state = GetAnimationState(adjustedPosition);
 
-				velocityThisFrame.y = Mathf.MoveTowards(velocityThisFrame.y, -maxGravitySpeed, inAirGravity * Time.fixedDeltaTime);
-			}
-		}
-
-		protected override void ChangeAnimations()
-		{
-			var state = GetAnimationState();
-
-			if (state != currentAnimationState)
-			{
-				animator.CrossFade(state, 0, 0);
-				currentAnimationState = state;
-			}
-
-			if (velocityThisFrame.x != 0)
-			{
-				if (velocityThisFrame.x > 0)
+				if (state != currentAnimationState)
 				{
-					spriteRenderer.flipX = false;
+					animator.CrossFade(state, 0, 0);
+					currentAnimationState = state;
 				}
-				else
+
+				if (adjustedPosition.x != transform.position.x)
 				{
-					spriteRenderer.flipX = true;
+					if (adjustedPosition.x > transform.position.x)
+					{
+						spriteRenderer.flipX = false;
+					}
+					else
+					{
+						spriteRenderer.flipX = true;
+					}
 				}
+
+				transform.position = adjustedPosition;
 			}
 		}
 
-
-		private int GetAnimationState()
+		private int GetAnimationState(Vector3 target)
 		{
-			var state = Math.Abs(velocityThisFrame.x) > 0 ? running : idle;
+			var state = target.x != transform.position.x ? running : idle;
 
 			return state;
 		}

@@ -198,6 +198,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239440217}
   m_CullTransparentMesh: 1
+--- !u!1 &296048194 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5492204586698892532, guid: c5097c1f2a0082a4a9bfe5d0ad93048e, type: 3}
+  m_PrefabInstance: {fileID: 7987088592760391653}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &383694852 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3448283627109572381, guid: 2f213abdf33352d4a944a13111723554, type: 3}
@@ -384,8 +389,6 @@ GameObject:
   - component: {fileID: 623248922}
   - component: {fileID: 623248925}
   - component: {fileID: 623248923}
-  - component: {fileID: 623248924}
-  - component: {fileID: 623248926}
   - component: {fileID: 623248927}
   m_Layer: 0
   m_Name: Follower
@@ -461,33 +464,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &623248924
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623248921}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 6200000, guid: a25abf087aac5f44f982a466b03ccf8b, type: 2}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 2
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!114 &623248925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,61 +476,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74449bee28dbfb24f8d3dc769fe9b1d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 5
-  acceleration: 120
-  friction: 60
-  windResistance: 60
-  jumpForce: 36
-  earlyJumpBuffer: 0.2
-  gravity: 40
-  maxGravitySpeed: 40
-  shortJumpGravityModifier: 3
-  groundingForce: -1.5
-  groundedDistanceBuffer: 0.1
-  rb: {fileID: 623248924}
-  capsuleCollider: {fileID: 623248926}
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 1
   objectToFollow: {fileID: 1681627125}
-  distanceFromObject: 2
+  offset: {x: 0, y: 0, z: 0}
+  delay: 0.3
+  movementSpeed: 5
   animator: {fileID: 623248927}
   spriteRenderer: {fileID: 623248923}
---- !u!70 &623248926
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623248921}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: a25abf087aac5f44f982a466b03ccf8b, type: 2}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.4375, y: 0.90625}
-  m_Direction: 0
 --- !u!95 &623248927
 Animator:
   serializedVersion: 5
@@ -1714,6 +1641,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3406062815373041655, guid: c5097c1f2a0082a4a9bfe5d0ad93048e, type: 3}
   m_PrefabInstance: {fileID: 7987088592760391653}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1681627133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296048194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9339fa3a52974447bb640616f766d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6579956713227623269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1823,6 +1762,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 383694853}
+    - target: {fileID: 3249381125706882425, guid: c5097c1f2a0082a4a9bfe5d0ad93048e, type: 3}
+      propertyPath: characterDirection
+      value: 
+      objectReference: {fileID: 1681627133}
     - target: {fileID: 3406062815373041655, guid: c5097c1f2a0082a4a9bfe5d0ad93048e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.14
@@ -1882,7 +1825,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5492204586698892532, guid: c5097c1f2a0082a4a9bfe5d0ad93048e, type: 3}
+      insertIndex: 4
+      addedObject: {fileID: 1681627133}
   m_SourcePrefab: {fileID: 100100000, guid: c5097c1f2a0082a4a9bfe5d0ad93048e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
