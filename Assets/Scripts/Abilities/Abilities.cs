@@ -14,7 +14,7 @@ namespace Assets.Scripts.Abilities
 
 
 		[SerializeField]
-		private Character character;
+		private CharacterDirection characterDirection;
 
 
 		[SerializeField]
@@ -29,7 +29,7 @@ namespace Assets.Scripts.Abilities
 		public void FixedUpdate()
 		{
 			if (inputs.NetballHeld)
-				netballAbility.TryThrowNetball(character.FacingDirection);
+				netballAbility.TryThrowNetball(characterDirection.FacingDirection);
 		}
 	}
 }

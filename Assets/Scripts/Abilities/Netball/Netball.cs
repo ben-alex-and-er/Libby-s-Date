@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using static Assets.Scripts.Character.Character;
+using static Assets.Scripts.Character.CharacterDirection;
 
 
 namespace Assets.Scripts.Abilities.Netball

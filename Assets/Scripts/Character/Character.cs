@@ -1,10 +1,12 @@
-using Assets.Scripts.UI.Healthbar;
 using System;
 using UnityEngine;
 
 
 namespace Assets.Scripts.Character
 {
+	using UI.Healthbar;
+
+
 	public class Character : MonoBehaviour
 	{
 		public uint currentHealth;
@@ -15,9 +17,6 @@ namespace Assets.Scripts.Character
 
 		[SerializeField]
 		private HealthBar healthBar;
-
-
-		public Direction FacingDirection { get; private set; }
 
 
 		private void Awake()
@@ -45,29 +44,5 @@ namespace Assets.Scripts.Character
 
 		public bool IsDead()
 			=> currentHealth == 0;
-
-
-		public void FaceNone()
-		{
-			FacingDirection = Direction.NONE;
-		}
-
-		public void FaceRight()
-		{
-			FacingDirection = Direction.RIGHT;
-		}
-
-		public void FaceLeft()
-		{
-			FacingDirection = Direction.LEFT;
-		}
-
-
-		public enum Direction
-		{
-			NONE,
-			LEFT,
-			RIGHT
-		}
 	}
 }
