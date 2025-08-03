@@ -33,11 +33,19 @@ namespace Assets.Scripts.Movement
 
 		private static readonly int running = Animator.StringToHash("Running");
 		private static readonly int idle = Animator.StringToHash("Idle");
+		private static readonly int dancing = Animator.StringToHash("Dancing");
 
 		private readonly Queue<(float time, Vector3 position)> positionQueue = new();
 
 
 		private int currentAnimationState;
+		private bool isDancing = false;
+
+
+		public void SetDance(bool isDancing)
+		{
+			this.isDancing = isDancing;
+		}
 
 
 		void Update()
@@ -78,6 +86,9 @@ namespace Assets.Scripts.Movement
 
 		private int GetAnimationState(Vector3 target)
 		{
+			if (isDancing)
+				return dancing;
+
 			var state = IsVeryClose(target.x, transform.position.x) ? idle : running;
 
 			return state;
