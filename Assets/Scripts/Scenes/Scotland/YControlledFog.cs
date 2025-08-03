@@ -25,6 +25,14 @@ namespace Assets.Scripts.Scenes.Scotland
 		[SerializeField]
 		private Transform player;
 
+
+		[SerializeField]
+		private float fadeDuration = 2f;
+
+		private bool isFadingOut = false;
+		private float fadeTimer = 0f;
+
+
 		private void Awake()
 		{
 			fog.gameObject.SetActive(true);
@@ -33,6 +41,20 @@ namespace Assets.Scripts.Scenes.Scotland
 
 		private void Update()
 		{
+			if (isFadingOut)
+			{
+				fadeTimer += Time.deltaTime;
+				var lerp = Mathf.Clamp01(fadeTimer / fadeDuration);
+				fog.localScale = Vector2.Lerp(endScale, startScale, lerp);
+
+				if (fog.localScale.x == startScale.x && fog.localScale.y == startScale.y)
+				{
+					fog.gameObject.SetActive(false);
+				}
+
+				return;
+			}
+
 			var percentageThrough = (player.position.y - yStart) / (yEnd - yStart);
 
 			var newSize = percentageThrough switch
@@ -43,6 +65,12 @@ namespace Assets.Scripts.Scenes.Scotland
 			};
 
 			fog.localScale = newSize;
+		}
+
+		public void TriggerFadeOut()
+		{
+			isFadingOut = true;
+			fadeTimer = 0f;
 		}
 	}
 }
