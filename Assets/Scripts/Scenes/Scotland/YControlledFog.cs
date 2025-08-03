@@ -27,6 +27,9 @@ namespace Assets.Scripts.Scenes.Scotland
 
 
 		[SerializeField]
+		private float lerpSpeed = 5f;
+
+		[SerializeField]
 		private float fadeDuration = 2f;
 
 		private bool isFadingOut = false;
@@ -57,14 +60,14 @@ namespace Assets.Scripts.Scenes.Scotland
 
 			var percentageThrough = (player.position.y - yStart) / (yEnd - yStart);
 
-			var newSize = percentageThrough switch
+			var targetScale = percentageThrough switch
 			{
 				< 0 => startScale,
 				> 1 => endScale,
 				_ => (endScale - startScale) * percentageThrough + startScale,
 			};
 
-			fog.localScale = newSize;
+			fog.localScale = Vector2.Lerp(fog.localScale, targetScale, Time.deltaTime * lerpSpeed);
 		}
 
 		public void TriggerFadeOut()
