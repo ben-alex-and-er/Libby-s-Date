@@ -72,7 +72,7 @@ namespace Assets.Scripts.Movement
 				jumpBufferTimer -= Time.fixedDeltaTime;
 			}
 
-			if (!shortJump && !isGrounded && !inputs.JumpHeld && rb.velocity.y > 0)
+			if (!shortJump && !isGrounded && !inputs.JumpHeld && rb.linearVelocity.y > 0)
 			{
 				shortJump = true;
 			}

@@ -68,7 +68,7 @@ namespace Assets.Scripts.Abilities.Netball
 
 			var direction = distance.normalized;
 
-			rb.velocity = direction * speed;
+			rb.linearVelocity = direction * speed;
 		}
 
 		private void Rotate()
@@ -87,11 +87,11 @@ namespace Assets.Scripts.Abilities.Netball
 
 			if (direction == Direction.RIGHT)
 			{
-				rb.velocity = new Vector2(speed, 0);
+				rb.linearVelocity = new Vector2(speed, 0);
 			}
 			else
 			{
-				rb.velocity = new Vector2(-speed, 0);
+				rb.linearVelocity = new Vector2(-speed, 0);
 			}
 
 

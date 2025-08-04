@@ -86,7 +86,7 @@ namespace Assets.Scripts.Movement
 
 			ChangeAnimations();
 
-			rb.velocity = velocityThisFrame;
+			rb.linearVelocity = velocityThisFrame;
 		}
 
 
