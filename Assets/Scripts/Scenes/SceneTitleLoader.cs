@@ -19,15 +19,20 @@ namespace Assets.Scripts.Scenes
 		private string nextScene;
 
 
-		async void Start()
+		void Start()
 		{
-			StartCoroutine(FadeIn(title, 2));
+			StartCoroutine(LoadSceneSequence());
+		}
 
-			await Task.Delay(3000);
+		IEnumerator LoadSceneSequence()
+		{
+			yield return StartCoroutine(FadeIn(title, 2f));
 
-			StartCoroutine(FadeIn(subTitle, 2));
+			yield return new WaitForSeconds(1f);
 
-			await Task.Delay(3000);
+			yield return StartCoroutine(FadeIn(subTitle, 2f));
+
+			yield return new WaitForSeconds(1f);
 
 			SceneManager.LoadScene(nextScene);
 		}
