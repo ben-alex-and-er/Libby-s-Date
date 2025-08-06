@@ -4,6 +4,7 @@ using UnityInput = UnityEngine.Input;
 
 namespace Assets.Scripts.Input
 {
+	using Abilities;
 	using Movement;
 
 
@@ -16,9 +17,9 @@ namespace Assets.Scripts.Input
 		/// Movement and jump inputs per update
 		/// </summary>
 		[HideInInspector]
-		public Inputs inputs = new(false, false, Vector2.zero);
+		public Inputs inputs = new();
 
-
+		[Header("Movement")]
 		[SerializeField]
 		private string jumpInput = "Jump";
 
@@ -28,23 +29,43 @@ namespace Assets.Scripts.Input
 		[SerializeField]
 		private string verticalInput = "Vertical";
 
+
+		[Header("Abilities")]
+		[SerializeField]
+		private string netballInput = "Netball";
+
+
+		[Header("Components")]
 		[SerializeField]
 		private PlayerMovement playerMovement;
+
+		[SerializeField]
+		private Abilities abilities;
 
 
 		private void Awake()
 		{
-			playerMovement.SetInputs(inputs);
+			Update();
 		}
 
 
 		private void Update()
 		{
-			var move = new Vector2(UnityInput.GetAxisRaw(horizontalInput), UnityInput.GetAxisRaw(verticalInput));
+			var movementInputs = new MovementInputs()
+			{
+				JumpDown = UnityInput.GetButtonDown(jumpInput),
+				JumpHeld = UnityInput.GetButton(jumpInput),
+				Move = new Vector2(UnityInput.GetAxisRaw(horizontalInput), UnityInput.GetAxisRaw(verticalInput)),
+			};
 
-			inputs = new Inputs(UnityInput.GetButtonDown(jumpInput), UnityInput.GetButton(jumpInput), move);
+			playerMovement.SetInputs(movementInputs);
 
-			playerMovement.SetInputs(inputs);
+			var abilityInputs = new AbilityInputs
+			{
+				NetballHeld = UnityInput.GetButton(netballInput)
+			};
+
+			abilities.SetInputs(abilityInputs);
 		}
 	}
 }

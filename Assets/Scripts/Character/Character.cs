@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace Assets.Scripts.Character
 {
+	using UI.Healthbar;
+
+
 	public class Character : MonoBehaviour
 	{
 		public uint currentHealth;
@@ -11,6 +14,9 @@ namespace Assets.Scripts.Character
 		[Header("Health")]
 		[SerializeField]
 		private uint maxHealth;
+
+		[SerializeField]
+		private HealthBar healthBar;
 
 
 		private void Awake()
@@ -20,12 +26,20 @@ namespace Assets.Scripts.Character
 
 		public void TakeDamage(uint value)
 		{
-			currentHealth = Math.Max(currentHealth - value, 0);
+			var damage = Math.Min(value, currentHealth);
+
+			currentHealth -= damage;
+
+			healthBar.TakeDamage(damage);
 		}
 
 		public void Heal(uint value)
 		{
-			currentHealth = Math.Min(currentHealth + value, maxHealth);
+			var heal = maxHealth - currentHealth;
+
+			value = Math.Min(value, heal);
+
+			currentHealth += value;
 		}
 
 		public bool IsDead()
