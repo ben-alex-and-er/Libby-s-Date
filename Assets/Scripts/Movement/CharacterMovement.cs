@@ -63,6 +63,7 @@ namespace Assets.Scripts.Movement
 		protected Vector2 velocityThisFrame;
 		protected bool isGrounded;
 		protected bool shortJump;
+		protected bool isDancing;
 
 
 
@@ -70,15 +71,22 @@ namespace Assets.Scripts.Movement
 		{
 			CheckCollisions();
 
-			Move();
+			if (isDancing)
+			{
+				velocityThisFrame.x = 0;
+			}
+			else
+			{
+				Move();
 
-			Jump();
+				Jump();
+			}
 
 			Gravity();
 
 			ChangeAnimations();
 
-			rb.velocity = velocityThisFrame;
+			rb.linearVelocity = velocityThisFrame;
 		}
 
 

@@ -26,6 +26,7 @@ namespace Assets.Scripts.Movement
 
 		private static readonly int running = Animator.StringToHash("Running");
 		private static readonly int idle = Animator.StringToHash("Idle");
+		private static readonly int dancing = Animator.StringToHash("Dancing");
 
 
 		private MovementInputs inputs;
@@ -41,6 +42,11 @@ namespace Assets.Scripts.Movement
 			{
 				jumpBufferTimer = earlyJumpBuffer;
 			}
+		}
+
+		public void SetDance(bool isDancing)
+		{
+			this.isDancing = isDancing;
 		}
 
 		protected override void Move()
@@ -66,7 +72,7 @@ namespace Assets.Scripts.Movement
 				jumpBufferTimer -= Time.fixedDeltaTime;
 			}
 
-			if (!shortJump && !isGrounded && !inputs.JumpHeld && rb.velocity.y > 0)
+			if (!shortJump && !isGrounded && !inputs.JumpHeld && rb.linearVelocity.y > 0)
 			{
 				shortJump = true;
 			}
@@ -108,6 +114,9 @@ namespace Assets.Scripts.Movement
 
 		private int GetAnimationState()
 		{
+			if (isDancing)
+				return dancing;
+
 			var state = Math.Abs(velocityThisFrame.x) > 0 ? running : idle;
 
 			return state;
