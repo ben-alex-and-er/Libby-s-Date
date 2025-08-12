@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Scotland.unity
     guid: 4d1598d80921ae94b9642b2cadc0a5e4
   - enabled: 1
+    path: Assets/Scenes/Birthday Load.unity
+    guid: 0072e6dc52e2c5244a153903da2032bc
+  - enabled: 1
     path: Assets/Scenes/Birthday.unity
     guid: 032fcf2a1a4adbe4abe153b1ac90abc2
   - enabled: 1
