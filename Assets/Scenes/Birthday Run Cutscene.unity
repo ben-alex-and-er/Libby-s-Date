@@ -166,6 +166,7 @@ GameObject:
   - component: {fileID: 14204249}
   - component: {fileID: 14204246}
   - component: {fileID: 14204248}
+  - component: {fileID: 14204250}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -293,6 +294,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &14204250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14204245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: ca55aab70c0df064caf7babd5ce6c5b8, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1338828113}
+          m_TargetAssemblyTypeName: Assets.Scripts.Scenes.CutSceneEndSceneChanger,
+            Assembly-CSharp
+          m_MethodName: ChangeScene
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &54630633
 GameObject:
   m_ObjectHideFlags: 0
@@ -7207,6 +7239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1338828112}
   - component: {fileID: 1338828111}
+  - component: {fileID: 1338828113}
   m_Layer: 0
   m_Name: Cutscenes
   m_TagString: Untagged
@@ -7250,6 +7283,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1338828113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338828110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd26411026adb1a4e8f5b4add0004958, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Birthday P2
 --- !u!1 &1396921282
 GameObject:
   m_ObjectHideFlags: 0
@@ -16227,6 +16273,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 0, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 30
+      m_TileSpriteIndex: 30
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 1, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -24769,7 +24825,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 85eb5e305ce8be2409fad14f168b3814, type: 2}
   - m_RefCount: 60
     m_Data: {fileID: 11400000, guid: 08b9498aedede2345b79609ea64a691a, type: 2}
-  - m_RefCount: 119
+  - m_RefCount: 120
     m_Data: {fileID: 11400000, guid: 0b409d34dcbdd8f4bbca47cb91e4f15a, type: 2}
   - m_RefCount: 10
     m_Data: {fileID: 11400000, guid: cb1ae3678b623014394713f6021df9a4, type: 2}
@@ -24838,7 +24894,7 @@ Tilemap:
     m_Data: {fileID: -1440765368, guid: 546b681a481aae642968d432497aa3f8, type: 3}
   - m_RefCount: 60
     m_Data: {fileID: 108466397, guid: 546b681a481aae642968d432497aa3f8, type: 3}
-  - m_RefCount: 119
+  - m_RefCount: 120
     m_Data: {fileID: 1142065234, guid: 546b681a481aae642968d432497aa3f8, type: 3}
   - m_RefCount: 10
     m_Data: {fileID: -633944844, guid: 546b681a481aae642968d432497aa3f8, type: 3}
@@ -24847,7 +24903,7 @@ Tilemap:
   - m_RefCount: 10
     m_Data: {fileID: 268004919, guid: 546b681a481aae642968d432497aa3f8, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 1712
+  - m_RefCount: 1713
     m_Data:
       e00: 1
       e01: 0
@@ -24884,7 +24940,7 @@ Tilemap:
       e32: 7.3e-43
       e33: 7.27e-43
   m_TileColorArray:
-  - m_RefCount: 1712
+  - m_RefCount: 1713
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
