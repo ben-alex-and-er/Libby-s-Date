@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -21,7 +21,18 @@ namespace Assets.Scripts.Trigger
 		private List<Follower> followers;
 
 
-		protected override async void Trigger()
+		protected override void Trigger()
+		{
+			StartCoroutine(FinishLevelRoutine());
+		}
+
+		protected override void ExitTrigger()
+		{
+			// Nothing
+		}
+
+
+		private IEnumerator FinishLevelRoutine()
 		{
 			playerMovement.SetDance(true);
 
@@ -30,14 +41,9 @@ namespace Assets.Scripts.Trigger
 				follower.SetDance(true);
 			}
 
-			await Task.Delay(4000);
+			yield return new WaitForSeconds(4f);
 
 			SceneManager.LoadScene(sceneName);
-		}
-
-		protected override void ExitTrigger()
-		{
-			// Nothing
 		}
 	}
 }

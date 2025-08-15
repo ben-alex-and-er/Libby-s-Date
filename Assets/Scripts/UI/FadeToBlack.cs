@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,11 +24,14 @@ namespace Assets.Scripts.UI
 		{
 			image.gameObject.SetActive(true);
 
-			image.color = Color.black;
-			image.color.WithAlpha(0);
+			var startColor = Color.black;
+
+			startColor.a = 0f;
+
+			image.color = startColor;
 
 			var elapsed = 0f;
-			var color = image.color;
+			var color = startColor;
 
 			while (elapsed < fadeDuration)
 			{
