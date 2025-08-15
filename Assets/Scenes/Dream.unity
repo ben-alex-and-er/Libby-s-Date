@@ -245,7 +245,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1128453055}
   speechSprite: {fileID: 21300000, guid: 2307fd62dc6ef17488afce998074bfcd, type: 3}
-  customPosition: {x: -0.75, y: 0.67}
+  customPosition: {x: -0.75, y: 0.31}
 --- !u!61 &102641996
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -340,7 +340,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
   speechSprite: {fileID: 21300000, guid: 645614396f9336145b697e881d2a9a20, type: 3}
-  customPosition: {x: 0.91, y: 0.67}
+  customPosition: {x: 1.39, y: 0.31}
 --- !u!61 &124260902
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -941,7 +941,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
   speechSprite: {fileID: 21300000, guid: ffadbe0ce0934664f93b473708b48ae3, type: 3}
-  customPosition: {x: 1.17, y: 0.67}
+  customPosition: {x: 1.48, y: 0.31}
 --- !u!61 &493175803
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1036,7 +1036,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
   speechSprite: {fileID: 21300000, guid: 6774bbd9cda15564ab1c79daa2219e37, type: 3}
-  customPosition: {x: 0.91, y: 0.67}
+  customPosition: {x: 1.14, y: 0.31}
 --- !u!61 &521626985
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1131,7 +1131,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
   speechSprite: {fileID: 21300000, guid: ddf9281d3f1735c40af570d81df8b70f, type: 3}
-  customPosition: {x: 0.91, y: 0.67}
+  customPosition: {x: 1.63, y: 0.31}
 --- !u!61 &588065712
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1226,7 +1226,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
   speechSprite: {fileID: 21300000, guid: 4c4a5c634ac96b04fa2344bd9ec990a9, type: 3}
-  customPosition: {x: 0.91, y: 0.67}
+  customPosition: {x: 1.41, y: 0.22}
 --- !u!61 &600404552
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1321,7 +1321,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 447216066}
   speechSprite: {fileID: 21300000, guid: a731eb568fbf7984d9ef6429d5512dc2, type: 3}
-  customPosition: {x: 0.7, y: 0.67}
+  customPosition: {x: 0.7, y: 0.31}
 --- !u!61 &603432683
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1523,7 +1523,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
   speechSprite: {fileID: 21300000, guid: a4dcc87f066437540b65277ce92ad2fe, type: 3}
-  customPosition: {x: 0.91, y: 0.67}
+  customPosition: {x: 0.89, y: 0.16}
 --- !u!61 &735362521
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2043,7 +2043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerTag: Player
-  sceneName: Birthday Load
+  sceneName: Scotland Load
   playerMovement: {fileID: 1061079218}
   followers:
   - {fileID: 1238712133}
@@ -106535,7 +106535,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
   speechSprite: {fileID: 546592689518274449, guid: 677938442b4fda549a18f4be2ff537d5, type: 3}
-  customPosition: {x: 1.1, y: 0.75}
+  customPosition: {x: 1.3, y: 0.31}
 --- !u!61 &1143855837
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -106645,7 +106645,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
   speechSprite: {fileID: 21300000, guid: 486c392a0cdcb3d40b2f163de261964a, type: 3}
-  customPosition: {x: 0.91, y: 0.67}
+  customPosition: {x: 1.34, y: 0.31}
 --- !u!61 &1165008173
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -107341,7 +107341,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1408755677}
   speechSprite: {fileID: 21300000, guid: 747c1db2b103c7a4f94d5e50de50e586, type: 3}
-  customPosition: {x: -0.54, y: 0.59}
+  customPosition: {x: -0.54, y: 0.31}
 --- !u!61 &1271178124
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -107414,7 +107414,7 @@ Transform:
   m_GameObject: {fileID: 1298192571}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.91, y: 0.67, z: 0}
+  m_LocalPosition: {x: 1.27, y: 0.22, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -107469,7 +107469,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 6.3, y: 2.25}
+  m_Size: {x: 7.29, y: 2.07}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -107967,7 +107967,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
   speechSprite: {fileID: 21300000, guid: 711272538f192cf43b6555079512d453, type: 3}
-  customPosition: {x: 0.91, y: 0.67}
+  customPosition: {x: 1.53, y: 0.31}
 --- !u!61 &1487364667
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -108191,7 +108191,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
   speechSprite: {fileID: 21300000, guid: b5bf7df02de332d40acf05ab79d24622, type: 3}
-  customPosition: {x: 0.91, y: 0.67}
+  customPosition: {x: 1.34, y: 0.31}
 --- !u!61 &1555518879
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -108352,7 +108352,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
   speechSprite: {fileID: 21300000, guid: b55c81675ea483c46b10b1c6164292b1, type: 3}
-  customPosition: {x: 0.91, y: 0.67}
+  customPosition: {x: 1.47, y: 0.22}
 --- !u!61 &1749221304
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -108588,7 +108588,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
   speechSprite: {fileID: 546592689518274449, guid: 677938442b4fda549a18f4be2ff537d5, type: 3}
-  customPosition: {x: 1.1, y: 0.75}
+  customPosition: {x: 1.3, y: 0.31}
 --- !u!61 &1838179397
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -109576,7 +109576,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
   speechSprite: {fileID: 21300000, guid: 10c4f51b9a672c7418e38cb3af63f283, type: 3}
-  customPosition: {x: 0.91, y: 0.67}
+  customPosition: {x: 1.32, y: 0.31}
 --- !u!61 &2107633130
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -109671,7 +109671,7 @@ MonoBehaviour:
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
   speechSprite: {fileID: 21300000, guid: ee6a5bc37ec9ce849baa8dcd91cda5de, type: 3}
-  customPosition: {x: 0.91, y: 0.67}
+  customPosition: {x: 1.26, y: 0.31}
 --- !u!61 &2117093543
 BoxCollider2D:
   m_ObjectHideFlags: 0
