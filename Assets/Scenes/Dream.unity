@@ -304,7 +304,7 @@ GameObject:
   - component: {fileID: 124260902}
   - component: {fileID: 124260901}
   m_Layer: 0
-  m_Name: Looking Foggy
+  m_Name: Fog will come
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
-  speechSprite: {fileID: 21300000, guid: 5cae01f3224a76443b47c084e317cef2, type: 3}
+  speechSprite: {fileID: 21300000, guid: 645614396f9336145b697e881d2a9a20, type: 3}
   customPosition: {x: 0.91, y: 0.67}
 --- !u!61 &124260902
 BoxCollider2D:
@@ -1095,7 +1095,7 @@ GameObject:
   - component: {fileID: 588065712}
   - component: {fileID: 588065711}
   m_Layer: 0
-  m_Name: Need to find them
+  m_Name: Know where
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1130,7 +1130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
-  speechSprite: {fileID: 21300000, guid: 931b89fecdac9004f9c867c8aed7042e, type: 3}
+  speechSprite: {fileID: 21300000, guid: ddf9281d3f1735c40af570d81df8b70f, type: 3}
   customPosition: {x: 0.91, y: 0.67}
 --- !u!61 &588065712
 BoxCollider2D:
@@ -1190,7 +1190,7 @@ GameObject:
   - component: {fileID: 600404552}
   - component: {fileID: 600404551}
   m_Layer: 0
-  m_Name: Hope okay
+  m_Name: Bunny is cool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1225,7 +1225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
-  speechSprite: {fileID: 21300000, guid: 7f4654e8ff51f2e4195915a9184990f7, type: 3}
+  speechSprite: {fileID: 21300000, guid: 4c4a5c634ac96b04fa2344bd9ec990a9, type: 3}
   customPosition: {x: 0.91, y: 0.67}
 --- !u!61 &600404552
 BoxCollider2D:
@@ -1692,18 +1692,18 @@ PrefabInstance:
     - target: {fileID: 1118058180444588714, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1817431151, guid: 24b3b9da91461d54d966f32a451bfaea, type: 3}
+      objectReference: {fileID: 4723107735738678597, guid: d0a2285dfb6c0ae40bb81a1a5383777b, type: 3}
     - target: {fileID: 4156250545022727662, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_Name
       value: Friend 3
       objectReference: {fileID: 0}
     - target: {fileID: 4156250545022727662, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5953151661591293505, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -146.267
+      value: -147.68
       objectReference: {fileID: 0}
     - target: {fileID: 5953151661591293505, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1744,14 +1744,14 @@ PrefabInstance:
     - target: {fileID: 8140848744544338574, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: baba37ee6929acb4db9615a87a59021c, type: 2}
+      objectReference: {fileID: 9100000, guid: 018c1e9955bbb4643818af414b06dfe5, type: 2}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: lerp
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: delay
-      value: 0.2
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: yLerp
@@ -1759,7 +1759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: offset.x
-      value: -0.3
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: objectToFollow
@@ -2018,7 +2018,7 @@ Animator:
   m_GameObject: {fileID: 981268885}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 210bae65f9aa1074287d92f168722592, type: 2}
+  m_Controller: {fileID: 9100000, guid: 018c1e9955bbb4643818af414b06dfe5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2129,9 +2129,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1347509671, guid: 24b3b9da91461d54d966f32a451bfaea, type: 3}
+  m_Sprite: {fileID: 4723107735738678597, guid: d0a2285dfb6c0ae40bb81a1a5383777b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.4375, y: 0.90625}
@@ -106129,7 +106129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3406062815373041655, guid: c5097c1f2a0082a4a9bfe5d0ad93048e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -21.796
+      value: -21.8134
       objectReference: {fileID: 0}
     - target: {fileID: 3406062815373041655, guid: c5097c1f2a0082a4a9bfe5d0ad93048e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -106174,6 +106174,18 @@ PrefabInstance:
     - target: {fileID: 5492204586698892532, guid: c5097c1f2a0082a4a9bfe5d0ad93048e, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344379345474362255, guid: c5097c1f2a0082a4a9bfe5d0ad93048e, type: 3}
+      propertyPath: m_Size.x
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344379345474362255, guid: c5097c1f2a0082a4a9bfe5d0ad93048e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344379345474362255, guid: c5097c1f2a0082a4a9bfe5d0ad93048e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.16
       objectReference: {fileID: 0}
     - target: {fileID: 7840361621299864781, guid: c5097c1f2a0082a4a9bfe5d0ad93048e, type: 3}
       propertyPath: m_IsActive
@@ -106438,7 +106450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3172858964515327421, guid: 5f548850fd0672140b0930da54277cff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.0105362
+      value: -1.0279369
       objectReference: {fileID: 0}
     - target: {fileID: 3172858964515327421, guid: 5f548850fd0672140b0930da54277cff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -106597,7 +106609,7 @@ GameObject:
   - component: {fileID: 1165008173}
   - component: {fileID: 1165008172}
   m_Layer: 0
-  m_Name: There you are
+  m_Name: Fellow Bunny
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106632,7 +106644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
-  speechSprite: {fileID: 21300000, guid: 1b57c6f1b5988ae4cb910e27e7ff960d, type: 3}
+  speechSprite: {fileID: 21300000, guid: 486c392a0cdcb3d40b2f163de261964a, type: 3}
   customPosition: {x: 0.91, y: 0.67}
 --- !u!61 &1165008173
 BoxCollider2D:
@@ -107169,7 +107181,7 @@ PrefabInstance:
     - target: {fileID: 1118058180444588714, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1271212277, guid: c799cc58166bf694c881531b5cd9cfe0, type: 3}
+      objectReference: {fileID: 4723107735738678597, guid: fb59a1e6be24ba8409de68c07793dd89, type: 3}
     - target: {fileID: 1118058180444588714, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -107184,11 +107196,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4156250545022727662, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5953151661591293505, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -145.586
+      value: -146.08
       objectReference: {fileID: 0}
     - target: {fileID: 5953151661591293505, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -107229,14 +107241,14 @@ PrefabInstance:
     - target: {fileID: 8140848744544338574, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 125693315acda1842814240852a70a00, type: 2}
+      objectReference: {fileID: 9100000, guid: b88794ba9c51cfa42a430fd286100dd5, type: 2}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: lerp
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: delay
-      value: 0.2
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: yLerp
@@ -107244,7 +107256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: offset.x
-      value: -0.3
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: objectToFollow
@@ -107628,7 +107640,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1404176550, guid: 31312fe8cf0a0034c8b3fb70a0def1b6, type: 3}
+  m_Sprite: {fileID: 4723107735738678597, guid: 7fe99300722eb6f4aae8d2ac90cb04d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -107919,7 +107931,7 @@ GameObject:
   - component: {fileID: 1487364667}
   - component: {fileID: 1487364666}
   m_Layer: 0
-  m_Name: Where did everyone go?
+  m_Name: Seen coming
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107954,7 +107966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
-  speechSprite: {fileID: 21300000, guid: f465ef90a4cb48f40ad6d62d0f2b2dd5, type: 3}
+  speechSprite: {fileID: 21300000, guid: 711272538f192cf43b6555079512d453, type: 3}
   customPosition: {x: 0.91, y: 0.67}
 --- !u!61 &1487364667
 BoxCollider2D:
@@ -108143,7 +108155,7 @@ GameObject:
   - component: {fileID: 1555518879}
   - component: {fileID: 1555518878}
   m_Layer: 0
-  m_Name: One to go
+  m_Name: Finally be me
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108178,7 +108190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
-  speechSprite: {fileID: 21300000, guid: e71d7e15cb36a824390dd7efe418418c, type: 3}
+  speechSprite: {fileID: 21300000, guid: b5bf7df02de332d40acf05ab79d24622, type: 3}
   customPosition: {x: 0.91, y: 0.67}
 --- !u!61 &1555518879
 BoxCollider2D:
@@ -108244,7 +108256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4215624468638567884, guid: a9e302e9684824849a12c7f1c7980ba4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.0105362
+      value: -1.0279369
       objectReference: {fileID: 0}
     - target: {fileID: 4215624468638567884, guid: a9e302e9684824849a12c7f1c7980ba4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -108339,7 +108351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
-  speechSprite: {fileID: 21300000, guid: 1b57c6f1b5988ae4cb910e27e7ff960d, type: 3}
+  speechSprite: {fileID: 21300000, guid: b55c81675ea483c46b10b1c6164292b1, type: 3}
   customPosition: {x: 0.91, y: 0.67}
 --- !u!61 &1749221304
 BoxCollider2D:
@@ -108649,7 +108661,7 @@ PrefabInstance:
     - target: {fileID: 1118058180444588714, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1404176550, guid: 31312fe8cf0a0034c8b3fb70a0def1b6, type: 3}
+      objectReference: {fileID: 4723107735738678597, guid: 7fe99300722eb6f4aae8d2ac90cb04d5, type: 3}
     - target: {fileID: 1118058180444588714, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -108660,11 +108672,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4156250545022727662, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5953151661591293505, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -145.915
+      value: -146.88
       objectReference: {fileID: 0}
     - target: {fileID: 5953151661591293505, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -108705,14 +108717,14 @@ PrefabInstance:
     - target: {fileID: 8140848744544338574, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: dc1295365b4325d4fae91819f526a38d, type: 2}
+      objectReference: {fileID: 9100000, guid: c5180729880ee1a49a149cbf3abada1d, type: 2}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: lerp
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: delay
-      value: 0.2
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: yLerp
@@ -108720,7 +108732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: offset.x
-      value: -0.3
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: objectToFollow
@@ -109131,9 +109143,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1271212277, guid: c799cc58166bf694c881531b5cd9cfe0, type: 3}
+  m_Sprite: {fileID: 4723107735738678597, guid: fb59a1e6be24ba8409de68c07793dd89, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.4375, y: 0.90625}
@@ -109528,7 +109540,7 @@ GameObject:
   - component: {fileID: 2107633130}
   - component: {fileID: 2107633129}
   m_Layer: 0
-  m_Name: Keep going
+  m_Name: I'm a bunny
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109563,7 +109575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
-  speechSprite: {fileID: 21300000, guid: b047a7f784e25c74480854bd97be06a8, type: 3}
+  speechSprite: {fileID: 21300000, guid: 10c4f51b9a672c7418e38cb3af63f283, type: 3}
   customPosition: {x: 0.91, y: 0.67}
 --- !u!61 &2107633130
 BoxCollider2D:
@@ -109623,7 +109635,7 @@ GameObject:
   - component: {fileID: 2117093543}
   - component: {fileID: 2117093542}
   m_Layer: 0
-  m_Name: One Big Hill
+  m_Name: Done this before
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109658,7 +109670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerTag: Player
   spriteRenderer: {fileID: 1298192573}
-  speechSprite: {fileID: 21300000, guid: c716764ad758d264fa824cfd0b5a558a, type: 3}
+  speechSprite: {fileID: 21300000, guid: ee6a5bc37ec9ce849baa8dcd91cda5de, type: 3}
   customPosition: {x: 0.91, y: 0.67}
 --- !u!61 &2117093543
 BoxCollider2D:
