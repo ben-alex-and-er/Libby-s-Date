@@ -1,0 +1,1898 @@
+fileFormatVersion: 2
+guid: 26ab928c18f2b6943b9efc8b4d2d107c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -956804363260560756
+    second: Steve Sprite Sheet_0
+  - first:
+      213: 5840084790100387912
+    second: Steve Sprite Sheet_1
+  - first:
+      213: -2739771365880964122
+    second: Steve Sprite Sheet_2
+  - first:
+      213: 7736199892609984665
+    second: Steve Sprite Sheet_3
+  - first:
+      213: 1268294542421373294
+    second: Steve Sprite Sheet_4
+  - first:
+      213: 4707399259182016833
+    second: Steve Sprite Sheet_5
+  - first:
+      213: 5818329912424694608
+    second: Steve Sprite Sheet_6
+  - first:
+      213: -7681487028973974811
+    second: Steve Sprite Sheet_7
+  - first:
+      213: 369028552653947245
+    second: Steve Sprite Sheet_8
+  - first:
+      213: -40030906226522180
+    second: Steve Sprite Sheet_9
+  - first:
+      213: 1816359143745678564
+    second: Steve Sprite Sheet_10
+  - first:
+      213: -3310637210806704739
+    second: Steve Sprite Sheet_11
+  - first:
+      213: 1476875541626964956
+    second: Steve Sprite Sheet_12
+  - first:
+      213: 1672880975069031730
+    second: Steve Sprite Sheet_13
+  - first:
+      213: 6496767644609220773
+    second: Steve Sprite Sheet_14
+  - first:
+      213: 2368154995999264976
+    second: Steve Sprite Sheet_15
+  - first:
+      213: 1516588066611749396
+    second: Steve Sprite Sheet_16
+  - first:
+      213: 4083824808813724746
+    second: Steve Sprite Sheet_17
+  - first:
+      213: -2617997649837871659
+    second: Steve Sprite Sheet_18
+  - first:
+      213: 6223728083301082934
+    second: Steve Sprite Sheet_19
+  - first:
+      213: 678952680313797050
+    second: Steve Sprite Sheet_20
+  - first:
+      213: 2227444156237876433
+    second: Steve Sprite Sheet_21
+  - first:
+      213: 5639182460403475457
+    second: Steve Sprite Sheet_22
+  - first:
+      213: 750506088039728128
+    second: Steve Sprite Sheet_23
+  - first:
+      213: -1929219808637866378
+    second: Steve Sprite Sheet_24
+  - first:
+      213: -5068122191075209276
+    second: Steve Sprite Sheet_25
+  - first:
+      213: -7829410545551813636
+    second: Steve Sprite Sheet_26
+  - first:
+      213: -8341583410351211772
+    second: Steve Sprite Sheet_27
+  - first:
+      213: -8511922531646940148
+    second: Steve Sprite Sheet_28
+  - first:
+      213: 6321669433257476749
+    second: Steve Sprite Sheet_29
+  - first:
+      213: -8904110880799083698
+    second: Steve Sprite Sheet_30
+  - first:
+      213: -5165967376439894214
+    second: Steve Sprite Sheet_31
+  - first:
+      213: 902366114628064468
+    second: Steve Sprite Sheet_32
+  - first:
+      213: 5728625361646406752
+    second: Steve Sprite Sheet_33
+  - first:
+      213: -1933905505559816025
+    second: Steve Sprite Sheet_34
+  - first:
+      213: -7778677030711726569
+    second: Steve Sprite Sheet_35
+  - first:
+      213: 7937180725331042825
+    second: Steve Sprite Sheet_36
+  - first:
+      213: -2971302501991608994
+    second: Steve Sprite Sheet_37
+  - first:
+      213: 6537799101662465463
+    second: Steve Sprite Sheet_38
+  - first:
+      213: -761914113714593333
+    second: Steve Sprite Sheet_39
+  - first:
+      213: 1026034421255790659
+    second: Steve Sprite Sheet_40
+  - first:
+      213: -1940641263673267583
+    second: Steve Sprite Sheet_41
+  - first:
+      213: -1412828001795049056
+    second: Steve Sprite Sheet_42
+  - first:
+      213: -7168926324727785880
+    second: Steve Sprite Sheet_43
+  - first:
+      213: -1039157419123432289
+    second: Steve Sprite Sheet_44
+  - first:
+      213: 5735339866688761162
+    second: Steve Sprite Sheet_45
+  - first:
+      213: 4963788590274430054
+    second: Steve Sprite Sheet_46
+  - first:
+      213: -8578579012731350785
+    second: Steve Sprite Sheet_47
+  - first:
+      213: 4017928842740741513
+    second: Steve Sprite Sheet_48
+  - first:
+      213: -7335545661317812479
+    second: Steve Sprite Sheet_49
+  - first:
+      213: -3358622234706803823
+    second: Steve Sprite Sheet_50
+  - first:
+      213: 2570049862983011546
+    second: Steve Sprite Sheet_51
+  - first:
+      213: 6312460879147742172
+    second: Steve Sprite Sheet_52
+  - first:
+      213: -5542131061756118627
+    second: Steve Sprite Sheet_53
+  - first:
+      213: 6196481346767894385
+    second: Steve Sprite Sheet_54
+  - first:
+      213: -5172742264836706332
+    second: Steve Sprite Sheet_55
+  - first:
+      213: 2891764751324952527
+    second: Steve Sprite Sheet_56
+  - first:
+      213: -6897584064260135016
+    second: Steve Sprite Sheet_57
+  - first:
+      213: -760373397121786979
+    second: Steve Sprite Sheet_58
+  - first:
+      213: 1382428174224241282
+    second: Steve Sprite Sheet_59
+  - first:
+      213: -4256762601910248391
+    second: Steve Sprite Sheet_60
+  - first:
+      213: -5656635974267502121
+    second: Steve Sprite Sheet_61
+  - first:
+      213: 6041044270005171738
+    second: Steve Sprite Sheet_62
+  - first:
+      213: -2868256223887144711
+    second: Steve Sprite Sheet_63
+  - first:
+      213: 3828534449673061861
+    second: Steve Sprite Sheet_64
+  - first:
+      213: -3677478070325247248
+    second: Steve Sprite Sheet_65
+  - first:
+      213: 5295347843876421604
+    second: Steve Sprite Sheet_66
+  - first:
+      213: -7244654700460348645
+    second: Steve Sprite Sheet_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 340
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a7f40408fb8b2f0800000000000000
+      internalID: -956804363260560756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 340
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848681cac262c0150800000000000000
+      internalID: 5840084790100387912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 340
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebd0ea65706af9d0800000000000000
+      internalID: -2739771365880964122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 340
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998ee6e60d08c5b60800000000000000
+      internalID: 7736199892609984665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 340
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61b797aa23e99110800000000000000
+      internalID: 1268294542421373294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 338
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1492b737faa045140800000000000000
+      internalID: 4707399259182016833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 340
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0538a108a3cdeb050800000000000000
+      internalID: 5818329912424694608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 340
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea4c33de30e56590800000000000000
+      internalID: -7681487028973974811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 341
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d614ae0738d0f1500800000000000000
+      internalID: 369028552653947245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 340
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7c4565a18c17ff0800000000000000
+      internalID: -40030906226522180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 340
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec6e7b8401053910800000000000000
+      internalID: 1816359143745678564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 292
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d952dad4ff04e02d0800000000000000
+      internalID: -3310637210806704739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 292
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb4324fa7aee7410800000000000000
+      internalID: 1476875541626964956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 292
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23daf7e2264473710800000000000000
+      internalID: 1672880975069031730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 292
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a01f2d50c7292a50800000000000000
+      internalID: 6496767644609220773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 292
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d05a9dfb606dd020800000000000000
+      internalID: 2368154995999264976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 291
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4126df4bfc00c0510800000000000000
+      internalID: 1516588066611749396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 293
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44054ec609aca830800000000000000
+      internalID: 4083824808813724746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 292
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd2b9a12010babd0800000000000000
+      internalID: -2617997649837871659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 292
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637a8cf87bf1f5650800000000000000
+      internalID: 6223728083301082934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 292
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab937619ddf1c6900800000000000000
+      internalID: 678952680313797050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 292
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc049998a879ee10800000000000000
+      internalID: 2227444156237876433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 244
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10466ffe196624e40800000000000000
+      internalID: 5639182460403475457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 244
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004406b8f455a6a00800000000000000
+      internalID: 750506088039728128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 244
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e2e743ec80a35e0800000000000000
+      internalID: -1929219808637866378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 244
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf00b228b96aa9b0800000000000000
+      internalID: -5068122191075209276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 244
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3dfaf3798585390800000000000000
+      internalID: -7829410545551813636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 243
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b79b9751ebc3c80800000000000000
+      internalID: -8341583410351211772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 245
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c5a893e839fd980800000000000000
+      internalID: -8511922531646940148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 244
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82c1cc1bd41bb750800000000000000
+      internalID: 6321669433257476749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 244
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43b745745e3e6480800000000000000
+      internalID: -8904110880799083698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 244
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f1b06aa0cce48b0800000000000000
+      internalID: -5165967376439894214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 244
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d451c74339d58c00800000000000000
+      internalID: 902366114628064468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 196
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c4a343a6a208f40800000000000000
+      internalID: 5728625361646406752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 196
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a85fef50336925e0800000000000000
+      internalID: -1933905505559816025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 196
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71eefe924769c0490800000000000000
+      internalID: -7778677030711726569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 196
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9022f6311d7862e60800000000000000
+      internalID: 7937180725331042825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 196
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d8f88fd10d3c6d0800000000000000
+      internalID: -2971302501991608994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 196
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd857be4adeaba50800000000000000
+      internalID: 6537799101662465463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 197
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc16fae76232d65f0800000000000000
+      internalID: -761914113714593333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 197
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3406646bed43d3e00800000000000000
+      internalID: 1026034421255790659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 195
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a2a4a7d057115e0800000000000000
+      internalID: -1940641263673267583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 196
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9f748fa60a46ce0800000000000000
+      internalID: -1412828001795049056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 196
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86657a18d7bd28c90800000000000000
+      internalID: -7168926324727785880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 146
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94af6f35db2491f0800000000000000
+      internalID: -1039157419123432289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 148
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dae1cb835089f40800000000000000
+      internalID: 5735339866688761162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 150
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664c17f6c6be2e440800000000000000
+      internalID: 4963788590274430054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 148
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0d684d6d3c2f880800000000000000
+      internalID: -8578579012731350785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 147
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985bb5c9efc82c730800000000000000
+      internalID: 4017928842740741513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 148
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f6e7f1618e23a90800000000000000
+      internalID: -7335545661317812479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 99
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193829d4fd6c361d0800000000000000
+      internalID: -3358622234706803823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 98
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcc422dbb6aaa320800000000000000
+      internalID: 2570049862983011546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 102
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3b62889bd5a9750800000000000000
+      internalID: 6312460879147742172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 99
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d993e5da9256613b0800000000000000
+      internalID: -5542131061756118627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 100
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1773f6b54f25ef550800000000000000
+      internalID: 6196481346767894385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 100
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef22c5015ab638b0800000000000000
+      internalID: -5172742264836706332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 51
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc738b858bc912820800000000000000
+      internalID: 2891764751324952527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 50
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8972169a6dbd640a0800000000000000
+      internalID: -6897584064260135016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 54
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b16e78c6c9275f0800000000000000
+      internalID: -760373397121786979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 51
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282b02c991f5f2310800000000000000
+      internalID: 1382428174224241282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 52
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93cd8f387f0fce4c0800000000000000
+      internalID: -4256762601910248391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 52
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d107123d879f71b0800000000000000
+      internalID: -5656635974267502121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 4
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16311ab1c916d350800000000000000
+      internalID: 6041044270005171738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 4
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8476a3928e138d0800000000000000
+      internalID: -2868256223887144711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 10
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5cb1b2ccfa12530800000000000000
+      internalID: 3828534449673061861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f289fcdd29f6fcc0800000000000000
+      internalID: -3677478070325247248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 4
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef726cdecadc7940800000000000000
+      internalID: 5295347843876421604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Steve Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 5
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b62ba0fe0d57b90800000000000000
+      internalID: -7244654700460348645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Steve Sprite Sheet_0: -956804363260560756
+      Steve Sprite Sheet_1: 5840084790100387912
+      Steve Sprite Sheet_10: 1816359143745678564
+      Steve Sprite Sheet_11: -3310637210806704739
+      Steve Sprite Sheet_12: 1476875541626964956
+      Steve Sprite Sheet_13: 1672880975069031730
+      Steve Sprite Sheet_14: 6496767644609220773
+      Steve Sprite Sheet_15: 2368154995999264976
+      Steve Sprite Sheet_16: 1516588066611749396
+      Steve Sprite Sheet_17: 4083824808813724746
+      Steve Sprite Sheet_18: -2617997649837871659
+      Steve Sprite Sheet_19: 6223728083301082934
+      Steve Sprite Sheet_2: -2739771365880964122
+      Steve Sprite Sheet_20: 678952680313797050
+      Steve Sprite Sheet_21: 2227444156237876433
+      Steve Sprite Sheet_22: 5639182460403475457
+      Steve Sprite Sheet_23: 750506088039728128
+      Steve Sprite Sheet_24: -1929219808637866378
+      Steve Sprite Sheet_25: -5068122191075209276
+      Steve Sprite Sheet_26: -7829410545551813636
+      Steve Sprite Sheet_27: -8341583410351211772
+      Steve Sprite Sheet_28: -8511922531646940148
+      Steve Sprite Sheet_29: 6321669433257476749
+      Steve Sprite Sheet_3: 7736199892609984665
+      Steve Sprite Sheet_30: -8904110880799083698
+      Steve Sprite Sheet_31: -5165967376439894214
+      Steve Sprite Sheet_32: 902366114628064468
+      Steve Sprite Sheet_33: 5728625361646406752
+      Steve Sprite Sheet_34: -1933905505559816025
+      Steve Sprite Sheet_35: -7778677030711726569
+      Steve Sprite Sheet_36: 7937180725331042825
+      Steve Sprite Sheet_37: -2971302501991608994
+      Steve Sprite Sheet_38: 6537799101662465463
+      Steve Sprite Sheet_39: -761914113714593333
+      Steve Sprite Sheet_4: 1268294542421373294
+      Steve Sprite Sheet_40: 1026034421255790659
+      Steve Sprite Sheet_41: -1940641263673267583
+      Steve Sprite Sheet_42: -1412828001795049056
+      Steve Sprite Sheet_43: -7168926324727785880
+      Steve Sprite Sheet_44: -1039157419123432289
+      Steve Sprite Sheet_45: 5735339866688761162
+      Steve Sprite Sheet_46: 4963788590274430054
+      Steve Sprite Sheet_47: -8578579012731350785
+      Steve Sprite Sheet_48: 4017928842740741513
+      Steve Sprite Sheet_49: -7335545661317812479
+      Steve Sprite Sheet_5: 4707399259182016833
+      Steve Sprite Sheet_50: -3358622234706803823
+      Steve Sprite Sheet_51: 2570049862983011546
+      Steve Sprite Sheet_52: 6312460879147742172
+      Steve Sprite Sheet_53: -5542131061756118627
+      Steve Sprite Sheet_54: 6196481346767894385
+      Steve Sprite Sheet_55: -5172742264836706332
+      Steve Sprite Sheet_56: 2891764751324952527
+      Steve Sprite Sheet_57: -6897584064260135016
+      Steve Sprite Sheet_58: -760373397121786979
+      Steve Sprite Sheet_59: 1382428174224241282
+      Steve Sprite Sheet_6: 5818329912424694608
+      Steve Sprite Sheet_60: -4256762601910248391
+      Steve Sprite Sheet_61: -5656635974267502121
+      Steve Sprite Sheet_62: 6041044270005171738
+      Steve Sprite Sheet_63: -2868256223887144711
+      Steve Sprite Sheet_64: 3828534449673061861
+      Steve Sprite Sheet_65: -3677478070325247248
+      Steve Sprite Sheet_66: 5295347843876421604
+      Steve Sprite Sheet_67: -7244654700460348645
+      Steve Sprite Sheet_7: -7681487028973974811
+      Steve Sprite Sheet_8: 369028552653947245
+      Steve Sprite Sheet_9: -40030906226522180
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

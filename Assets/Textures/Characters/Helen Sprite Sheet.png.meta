@@ -1,0 +1,1898 @@
+fileFormatVersion: 2
+guid: 26c395ccf138e6d4b814af0d6b13214b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1598286898334470216
+    second: Helen Sprite Sheet_0
+  - first:
+      213: 3072344927228287438
+    second: Helen Sprite Sheet_1
+  - first:
+      213: 8262689139625000838
+    second: Helen Sprite Sheet_2
+  - first:
+      213: 5932538283176999261
+    second: Helen Sprite Sheet_3
+  - first:
+      213: 1548676149760423115
+    second: Helen Sprite Sheet_4
+  - first:
+      213: -1810498505161329927
+    second: Helen Sprite Sheet_5
+  - first:
+      213: 104633835092701014
+    second: Helen Sprite Sheet_6
+  - first:
+      213: -3820870421558381040
+    second: Helen Sprite Sheet_7
+  - first:
+      213: 9196687405017730671
+    second: Helen Sprite Sheet_8
+  - first:
+      213: 1400991935982243739
+    second: Helen Sprite Sheet_9
+  - first:
+      213: -2100602539572302453
+    second: Helen Sprite Sheet_10
+  - first:
+      213: -3289917693714679813
+    second: Helen Sprite Sheet_11
+  - first:
+      213: -6025069324994001758
+    second: Helen Sprite Sheet_12
+  - first:
+      213: 2703007626999114634
+    second: Helen Sprite Sheet_13
+  - first:
+      213: 2415248024840082130
+    second: Helen Sprite Sheet_14
+  - first:
+      213: -7791590606517904616
+    second: Helen Sprite Sheet_15
+  - first:
+      213: -4955123213297364937
+    second: Helen Sprite Sheet_16
+  - first:
+      213: 2736342254980825349
+    second: Helen Sprite Sheet_17
+  - first:
+      213: 6722174967023668240
+    second: Helen Sprite Sheet_18
+  - first:
+      213: 14957030887103512
+    second: Helen Sprite Sheet_19
+  - first:
+      213: 936520879312972976
+    second: Helen Sprite Sheet_20
+  - first:
+      213: -6453569050361241361
+    second: Helen Sprite Sheet_21
+  - first:
+      213: -7432213745130550673
+    second: Helen Sprite Sheet_22
+  - first:
+      213: 2606397245708142164
+    second: Helen Sprite Sheet_23
+  - first:
+      213: -769765482471180037
+    second: Helen Sprite Sheet_24
+  - first:
+      213: 2362310034415471274
+    second: Helen Sprite Sheet_25
+  - first:
+      213: 7126414080242163178
+    second: Helen Sprite Sheet_26
+  - first:
+      213: -6919093086068139903
+    second: Helen Sprite Sheet_27
+  - first:
+      213: 8781044035943970949
+    second: Helen Sprite Sheet_28
+  - first:
+      213: -416232839456267414
+    second: Helen Sprite Sheet_29
+  - first:
+      213: 2756030208148661143
+    second: Helen Sprite Sheet_30
+  - first:
+      213: 4446087972057039957
+    second: Helen Sprite Sheet_31
+  - first:
+      213: 2965295602975229697
+    second: Helen Sprite Sheet_32
+  - first:
+      213: -8797274937118153638
+    second: Helen Sprite Sheet_33
+  - first:
+      213: 8014191178658017218
+    second: Helen Sprite Sheet_34
+  - first:
+      213: -939181084098349703
+    second: Helen Sprite Sheet_35
+  - first:
+      213: 3370890964070493781
+    second: Helen Sprite Sheet_36
+  - first:
+      213: 243169689522093352
+    second: Helen Sprite Sheet_37
+  - first:
+      213: -7967086891069828420
+    second: Helen Sprite Sheet_38
+  - first:
+      213: -2947123577325466205
+    second: Helen Sprite Sheet_39
+  - first:
+      213: 1377024390198190893
+    second: Helen Sprite Sheet_40
+  - first:
+      213: -7300361160252160855
+    second: Helen Sprite Sheet_41
+  - first:
+      213: 4600079079432279028
+    second: Helen Sprite Sheet_42
+  - first:
+      213: 8275993601077824972
+    second: Helen Sprite Sheet_43
+  - first:
+      213: -2881151327823647028
+    second: Helen Sprite Sheet_44
+  - first:
+      213: 5116069455087667263
+    second: Helen Sprite Sheet_45
+  - first:
+      213: 5986779610301801468
+    second: Helen Sprite Sheet_46
+  - first:
+      213: 6883776005130662712
+    second: Helen Sprite Sheet_47
+  - first:
+      213: -3258840821670053600
+    second: Helen Sprite Sheet_48
+  - first:
+      213: -7630298766813660376
+    second: Helen Sprite Sheet_49
+  - first:
+      213: -1484976151430699078
+    second: Helen Sprite Sheet_50
+  - first:
+      213: -8696705342872250742
+    second: Helen Sprite Sheet_51
+  - first:
+      213: -4130262205552325753
+    second: Helen Sprite Sheet_52
+  - first:
+      213: 7933295680281589665
+    second: Helen Sprite Sheet_53
+  - first:
+      213: -8713773521926251814
+    second: Helen Sprite Sheet_54
+  - first:
+      213: -6943298666392647424
+    second: Helen Sprite Sheet_55
+  - first:
+      213: -4278321117975193940
+    second: Helen Sprite Sheet_56
+  - first:
+      213: 7852495898166195709
+    second: Helen Sprite Sheet_57
+  - first:
+      213: -6813708887018970951
+    second: Helen Sprite Sheet_58
+  - first:
+      213: 4689487045068179513
+    second: Helen Sprite Sheet_59
+  - first:
+      213: -2636231833120416794
+    second: Helen Sprite Sheet_60
+  - first:
+      213: 7712876904720586263
+    second: Helen Sprite Sheet_61
+  - first:
+      213: 6431844052172011605
+    second: Helen Sprite Sheet_62
+  - first:
+      213: -8636409769146263669
+    second: Helen Sprite Sheet_63
+  - first:
+      213: -2888379857976019224
+    second: Helen Sprite Sheet_64
+  - first:
+      213: -2356954850474000284
+    second: Helen Sprite Sheet_65
+  - first:
+      213: 1640995024133746109
+    second: Helen Sprite Sheet_66
+  - first:
+      213: -6366793770658405927
+    second: Helen Sprite Sheet_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 340
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfec97b88eb1d9e0800000000000000
+      internalID: -1598286898334470216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 340
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec95aeeee6923aa20800000000000000
+      internalID: 3072344927228287438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 339
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f73d0bef7faa270800000000000000
+      internalID: 8262689139625000838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 340
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59bb29f22c945250800000000000000
+      internalID: 5932538283176999261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 340
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4f692c0c00e7510800000000000000
+      internalID: 1548676149760423115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 338
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2bb75b331dfd6e0800000000000000
+      internalID: -1810498505161329927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 339
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fef2c2bebb37100800000000000000
+      internalID: 104633835092701014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 340
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016373e689a89fac0800000000000000
+      internalID: -3820870421558381040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 341
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e046ef77231af70800000000000000
+      internalID: 9196687405017730671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 340
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f88653eb2517310800000000000000
+      internalID: 1400991935982243739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 340
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d6286ae1929d2e0800000000000000
+      internalID: -2100602539572302453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 292
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf73dddc94dd752d0800000000000000
+      internalID: -3289917693714679813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 292
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a441a00f57a26ca0800000000000000
+      internalID: -6025069324994001758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 292
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b24789d13038520800000000000000
+      internalID: 2703007626999114634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 292
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d29e05384fa48120800000000000000
+      internalID: 2415248024840082130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 292
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81bda3fff95bed390800000000000000
+      internalID: -7791590606517904616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 290
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7305e1dd0bddb3bb0800000000000000
+      internalID: -4955123213297364937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 293
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501060c78c079f520800000000000000
+      internalID: 2736342254980825349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 292
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c08735486f94d50800000000000000
+      internalID: 6722174967023668240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 292
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c9be02753253000800000000000000
+      internalID: 14957030887103512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 292
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcaf2027c03ffc00800000000000000
+      internalID: 936520879312972976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 292
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe063c324215076a0800000000000000
+      internalID: -6453569050361241361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 244
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ac7b2f9f87bd890800000000000000
+      internalID: -7432213745130550673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 244
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4568df55c78cb2420800000000000000
+      internalID: 2606397245708142164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 244
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8b2f04f5e3155f0800000000000000
+      internalID: -769765482471180037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 244
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaacca2d57c98c020800000000000000
+      internalID: 2362310034415471274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 244
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed1d2f39db16e260800000000000000
+      internalID: 7126414080242163178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 243
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1881c054f717aff90800000000000000
+      internalID: -6919093086068139903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 245
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588b087d6098cd970800000000000000
+      internalID: 8781044035943970949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 244
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a636b54107e393af0800000000000000
+      internalID: -416232839456267414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 244
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79362fa4fd26f3620800000000000000
+      internalID: 2756030208148661143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 244
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554c896447da3bd30800000000000000
+      internalID: 4446087972057039957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 244
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107cd5dd3a8d62920800000000000000
+      internalID: 2965295602975229697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 196
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5420adfd0dc9e580800000000000000
+      internalID: -8797274937118153638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 196
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfeafd7a60283f60800000000000000
+      internalID: 8014191178658017218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 196
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9753d8ea7cb57f2f0800000000000000
+      internalID: -939181084098349703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 196
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55eeef9d87fc7ce20800000000000000
+      internalID: 3370890964070493781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 196
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d3b145b89ef5300800000000000000
+      internalID: 243169689522093352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 194
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb29c1b1fa83f6190800000000000000
+      internalID: -7967086891069828420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 197
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad465098b6b917d0800000000000000
+      internalID: -2947123577325466205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 197
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23efc8136c2c1310800000000000000
+      internalID: 1377024390198190893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 195
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a48c172438efaa90800000000000000
+      internalID: -7300361160252160855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 196
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3544cec83c6df30800000000000000
+      internalID: 4600079079432279028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 196
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd46a3055c3ad270800000000000000
+      internalID: 8275993601077824972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 146
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce2de0e1281408d0800000000000000
+      internalID: -2881151327823647028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 148
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f380ab4301eeff640800000000000000
+      internalID: 5116069455087667263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 150
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf327941650551350800000000000000
+      internalID: 5986779610301801468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 147
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833bb2b0ec5188f50800000000000000
+      internalID: 6883776005130662712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 147
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02970dce98546c2d0800000000000000
+      internalID: -3258840821670053600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 147
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b78f9d2bbbb1690800000000000000
+      internalID: -7630298766813660376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 99
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7eb0ade0e446be0800000000000000
+      internalID: -1484976151430699078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 98
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a869bd951981f4780800000000000000
+      internalID: -8696705342872250742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 102
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b05d8386c5ea6c0800000000000000
+      internalID: -4130262205552325753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 99
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a73359836ab81e60800000000000000
+      internalID: 7933295680281589665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 99
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada916c3625721780800000000000000
+      internalID: -8713773521926251814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 100
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009093c66a274af90800000000000000
+      internalID: -6943298666392647424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 51
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca659085c9950a4c0800000000000000
+      internalID: -4278321117975193940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 49
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df578624a6ba9fc60800000000000000
+      internalID: 7852495898166195709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 54
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0ef4a2ed7d071a0800000000000000
+      internalID: -6813708887018970951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 51
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938c51c1f97641140800000000000000
+      internalID: 4689487045068179513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 52
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebd7497d193a6bd0800000000000000
+      internalID: -2636231833120416794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 52
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7165f262ea4a90b60800000000000000
+      internalID: 7712876904720586263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 4
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558fb6c8610824950800000000000000
+      internalID: 6431844052172011605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 4
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87d257921f452880800000000000000
+      internalID: -8636409769146263669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 10
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e632fc82d96ae7d0800000000000000
+      internalID: -2888379857976019224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4600dd91d0a6a4fd0800000000000000
+      internalID: -2356954850474000284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdeca3b74cf5c610800000000000000
+      internalID: 1640995024133746109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Helen Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 5
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d16cbd5cca94a7a0800000000000000
+      internalID: -6366793770658405927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b9f46582988ce474dabeeb068789935b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Helen Sprite Sheet_0: -1598286898334470216
+      Helen Sprite Sheet_1: 3072344927228287438
+      Helen Sprite Sheet_10: -2100602539572302453
+      Helen Sprite Sheet_11: -3289917693714679813
+      Helen Sprite Sheet_12: -6025069324994001758
+      Helen Sprite Sheet_13: 2703007626999114634
+      Helen Sprite Sheet_14: 2415248024840082130
+      Helen Sprite Sheet_15: -7791590606517904616
+      Helen Sprite Sheet_16: -4955123213297364937
+      Helen Sprite Sheet_17: 2736342254980825349
+      Helen Sprite Sheet_18: 6722174967023668240
+      Helen Sprite Sheet_19: 14957030887103512
+      Helen Sprite Sheet_2: 8262689139625000838
+      Helen Sprite Sheet_20: 936520879312972976
+      Helen Sprite Sheet_21: -6453569050361241361
+      Helen Sprite Sheet_22: -7432213745130550673
+      Helen Sprite Sheet_23: 2606397245708142164
+      Helen Sprite Sheet_24: -769765482471180037
+      Helen Sprite Sheet_25: 2362310034415471274
+      Helen Sprite Sheet_26: 7126414080242163178
+      Helen Sprite Sheet_27: -6919093086068139903
+      Helen Sprite Sheet_28: 8781044035943970949
+      Helen Sprite Sheet_29: -416232839456267414
+      Helen Sprite Sheet_3: 5932538283176999261
+      Helen Sprite Sheet_30: 2756030208148661143
+      Helen Sprite Sheet_31: 4446087972057039957
+      Helen Sprite Sheet_32: 2965295602975229697
+      Helen Sprite Sheet_33: -8797274937118153638
+      Helen Sprite Sheet_34: 8014191178658017218
+      Helen Sprite Sheet_35: -939181084098349703
+      Helen Sprite Sheet_36: 3370890964070493781
+      Helen Sprite Sheet_37: 243169689522093352
+      Helen Sprite Sheet_38: -7967086891069828420
+      Helen Sprite Sheet_39: -2947123577325466205
+      Helen Sprite Sheet_4: 1548676149760423115
+      Helen Sprite Sheet_40: 1377024390198190893
+      Helen Sprite Sheet_41: -7300361160252160855
+      Helen Sprite Sheet_42: 4600079079432279028
+      Helen Sprite Sheet_43: 8275993601077824972
+      Helen Sprite Sheet_44: -2881151327823647028
+      Helen Sprite Sheet_45: 5116069455087667263
+      Helen Sprite Sheet_46: 5986779610301801468
+      Helen Sprite Sheet_47: 6883776005130662712
+      Helen Sprite Sheet_48: -3258840821670053600
+      Helen Sprite Sheet_49: -7630298766813660376
+      Helen Sprite Sheet_5: -1810498505161329927
+      Helen Sprite Sheet_50: -1484976151430699078
+      Helen Sprite Sheet_51: -8696705342872250742
+      Helen Sprite Sheet_52: -4130262205552325753
+      Helen Sprite Sheet_53: 7933295680281589665
+      Helen Sprite Sheet_54: -8713773521926251814
+      Helen Sprite Sheet_55: -6943298666392647424
+      Helen Sprite Sheet_56: -4278321117975193940
+      Helen Sprite Sheet_57: 7852495898166195709
+      Helen Sprite Sheet_58: -6813708887018970951
+      Helen Sprite Sheet_59: 4689487045068179513
+      Helen Sprite Sheet_6: 104633835092701014
+      Helen Sprite Sheet_60: -2636231833120416794
+      Helen Sprite Sheet_61: 7712876904720586263
+      Helen Sprite Sheet_62: 6431844052172011605
+      Helen Sprite Sheet_63: -8636409769146263669
+      Helen Sprite Sheet_64: -2888379857976019224
+      Helen Sprite Sheet_65: -2356954850474000284
+      Helen Sprite Sheet_66: 1640995024133746109
+      Helen Sprite Sheet_67: -6366793770658405927
+      Helen Sprite Sheet_7: -3820870421558381040
+      Helen Sprite Sheet_8: 9196687405017730671
+      Helen Sprite Sheet_9: 1400991935982243739
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

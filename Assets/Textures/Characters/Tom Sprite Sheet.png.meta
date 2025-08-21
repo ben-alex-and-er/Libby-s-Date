@@ -1,0 +1,1898 @@
+fileFormatVersion: 2
+guid: 11ea3653e6ef5b140bf84d1b2fa031cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 257439674814252191
+    second: Tom Sprite Sheet 1_0
+  - first:
+      213: -4149769644929371415
+    second: Tom Sprite Sheet 1_1
+  - first:
+      213: -2128706906223042066
+    second: Tom Sprite Sheet 1_2
+  - first:
+      213: 7430441689280240230
+    second: Tom Sprite Sheet 1_3
+  - first:
+      213: -512304317360640706
+    second: Tom Sprite Sheet 1_4
+  - first:
+      213: -8205029358060101887
+    second: Tom Sprite Sheet 1_5
+  - first:
+      213: -6706561291441742288
+    second: Tom Sprite Sheet 1_6
+  - first:
+      213: -4651820117986476970
+    second: Tom Sprite Sheet 1_7
+  - first:
+      213: 5541864704408840857
+    second: Tom Sprite Sheet 1_8
+  - first:
+      213: -2309625281938727293
+    second: Tom Sprite Sheet 1_9
+  - first:
+      213: -849420004132903842
+    second: Tom Sprite Sheet 1_10
+  - first:
+      213: 6840725965455252827
+    second: Tom Sprite Sheet 1_11
+  - first:
+      213: 4398984704603514899
+    second: Tom Sprite Sheet 1_12
+  - first:
+      213: -2519350678631019374
+    second: Tom Sprite Sheet 1_13
+  - first:
+      213: 1714497565291858954
+    second: Tom Sprite Sheet 1_14
+  - first:
+      213: -886590105949227156
+    second: Tom Sprite Sheet 1_15
+  - first:
+      213: -8435869796572322853
+    second: Tom Sprite Sheet 1_16
+  - first:
+      213: -9007918074617918973
+    second: Tom Sprite Sheet 1_17
+  - first:
+      213: 6309324463794080573
+    second: Tom Sprite Sheet 1_18
+  - first:
+      213: -4120326661355591363
+    second: Tom Sprite Sheet 1_19
+  - first:
+      213: 5446425258187765205
+    second: Tom Sprite Sheet 1_20
+  - first:
+      213: -6052986748771268144
+    second: Tom Sprite Sheet 1_21
+  - first:
+      213: 5125623816761301474
+    second: Tom Sprite Sheet 1_22
+  - first:
+      213: 6429559650594440325
+    second: Tom Sprite Sheet 1_23
+  - first:
+      213: 4487472719296238399
+    second: Tom Sprite Sheet 1_24
+  - first:
+      213: -5767029695696288569
+    second: Tom Sprite Sheet 1_25
+  - first:
+      213: 9006201403360110321
+    second: Tom Sprite Sheet 1_26
+  - first:
+      213: 7612913357706595664
+    second: Tom Sprite Sheet 1_27
+  - first:
+      213: 44893106083351501
+    second: Tom Sprite Sheet 1_28
+  - first:
+      213: 4429972833791704321
+    second: Tom Sprite Sheet 1_29
+  - first:
+      213: -8231423990412099025
+    second: Tom Sprite Sheet 1_30
+  - first:
+      213: -5199493349622460820
+    second: Tom Sprite Sheet 1_31
+  - first:
+      213: 5759988780992938053
+    second: Tom Sprite Sheet 1_32
+  - first:
+      213: -4505057932827524200
+    second: Tom Sprite Sheet 1_33
+  - first:
+      213: 6377270734419592377
+    second: Tom Sprite Sheet 1_34
+  - first:
+      213: 3671948125429648098
+    second: Tom Sprite Sheet 1_35
+  - first:
+      213: 698553392922068951
+    second: Tom Sprite Sheet 1_36
+  - first:
+      213: 5637097520708054490
+    second: Tom Sprite Sheet 1_37
+  - first:
+      213: 6372159517829123807
+    second: Tom Sprite Sheet 1_38
+  - first:
+      213: 147591088272273627
+    second: Tom Sprite Sheet 1_39
+  - first:
+      213: -393781727738253166
+    second: Tom Sprite Sheet 1_40
+  - first:
+      213: 8090552706264485633
+    second: Tom Sprite Sheet 1_41
+  - first:
+      213: -5693644974064017454
+    second: Tom Sprite Sheet 1_42
+  - first:
+      213: -8067045215248816356
+    second: Tom Sprite Sheet 1_43
+  - first:
+      213: 7620751489446630229
+    second: Tom Sprite Sheet 1_44
+  - first:
+      213: 1390918991879913341
+    second: Tom Sprite Sheet 1_45
+  - first:
+      213: -7227195566026201742
+    second: Tom Sprite Sheet 1_46
+  - first:
+      213: -4630707750396705026
+    second: Tom Sprite Sheet 1_47
+  - first:
+      213: 6045042730087613848
+    second: Tom Sprite Sheet 1_48
+  - first:
+      213: 1798325676142417629
+    second: Tom Sprite Sheet 1_49
+  - first:
+      213: 8985532816404266072
+    second: Tom Sprite Sheet 1_50
+  - first:
+      213: 2952864309315064039
+    second: Tom Sprite Sheet 1_51
+  - first:
+      213: 582886691347572552
+    second: Tom Sprite Sheet 1_52
+  - first:
+      213: 1984622627531443654
+    second: Tom Sprite Sheet 1_53
+  - first:
+      213: 3719613617953261829
+    second: Tom Sprite Sheet 1_54
+  - first:
+      213: -8836681193509548474
+    second: Tom Sprite Sheet 1_55
+  - first:
+      213: -3130330608053463682
+    second: Tom Sprite Sheet 1_56
+  - first:
+      213: -7283316904917245783
+    second: Tom Sprite Sheet 1_57
+  - first:
+      213: -9016405163053195622
+    second: Tom Sprite Sheet 1_58
+  - first:
+      213: 7873274793076904515
+    second: Tom Sprite Sheet 1_59
+  - first:
+      213: 5134240018682924016
+    second: Tom Sprite Sheet 1_60
+  - first:
+      213: 3325150175148756768
+    second: Tom Sprite Sheet 1_61
+  - first:
+      213: 6757694916760406804
+    second: Tom Sprite Sheet 1_62
+  - first:
+      213: -1869484269276766447
+    second: Tom Sprite Sheet 1_63
+  - first:
+      213: 2494718274418032570
+    second: Tom Sprite Sheet 1_64
+  - first:
+      213: -6062471036573279117
+    second: Tom Sprite Sheet 1_65
+  - first:
+      213: -5526867972592501664
+    second: Tom Sprite Sheet 1_66
+  - first:
+      213: -5817975492174561198
+    second: Tom Sprite Sheet 1_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 340
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f944560350c929300800000000000000
+      internalID: 257439674814252191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 340
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2394e8e7e0966c0800000000000000
+      internalID: -4149769644929371415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 340
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1a7afd8505572e0800000000000000
+      internalID: -2128706906223042066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 340
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a5dc5295b3e1760800000000000000
+      internalID: 7430441689280240230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 340
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3de1da00fde3e8f0800000000000000
+      internalID: -512304317360640706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 338
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f1d2d5541e12e80800000000000000
+      internalID: -8205029358060101887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 340
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03eda3fc9028de2a0800000000000000
+      internalID: -6706561291441742288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 340
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c7664cf3a617fb0800000000000000
+      internalID: -4651820117986476970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 341
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a609b2698a8ec40800000000000000
+      internalID: 5541864704408840857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 340
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ed7c10b0092ffd0800000000000000
+      internalID: -2309625281938727293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 340
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e542c84b1014634f0800000000000000
+      internalID: -849420004132903842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 292
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d50c895042fee50800000000000000
+      internalID: 6840725965455252827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 292
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318e44238455c0d30800000000000000
+      internalID: 4398984704603514899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 292
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c0f87e7e7790dd0800000000000000
+      internalID: -2519350678631019374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 292
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c4e7ba37e1bc710800000000000000
+      internalID: 1714497565291858954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 292
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c673589fef232b3f0800000000000000
+      internalID: -886590105949227156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 291
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd32cdb7d15cdea80800000000000000
+      internalID: -8435869796572322853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 293
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a0494bc327df280800000000000000
+      internalID: -9007918074617918973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 292
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bc02deb293f8750800000000000000
+      internalID: 6309324463794080573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 292
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39245f5bb8a1d6c0800000000000000
+      internalID: -4120326661355591363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 292
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d53ff97ae6959b40800000000000000
+      internalID: 5446425258187765205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 292
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d987514f987ffba0800000000000000
+      internalID: -6052986748771268144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 244
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9d65264bfd12740800000000000000
+      internalID: 5125623816761301474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 244
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584cddbdf626a3950800000000000000
+      internalID: 6429559650594440325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 244
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3398ec99a4b64e30800000000000000
+      internalID: 4487472719296238399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 244
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4c4eafb0567ffa0800000000000000
+      internalID: -5767029695696288569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 244
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f667ee95747cfc70800000000000000
+      internalID: 9006201403360110321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 243
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d8de72d5086a960800000000000000
+      internalID: 7612913357706595664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 245
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb46f8ca0e7f9000800000000000000
+      internalID: 44893106083351501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 244
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10df8c242dc6a7d30800000000000000
+      internalID: 4429972833791704321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_30
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 244
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22cbdf1e7b14cd80800000000000000
+      internalID: -8231423990412099025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_31
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 244
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e4fbbb850b7d7b0800000000000000
+      internalID: -5199493349622460820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_32
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 244
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540c15157479fef40800000000000000
+      internalID: 5759988780992938053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 196
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893824dcda1da71c0800000000000000
+      internalID: -4505057932827524200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 196
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b40399d1fd908850800000000000000
+      internalID: 6377270734419592377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_35
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 196
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea45e18d5165f230800000000000000
+      internalID: 3671948125429648098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 196
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d783c91c92c1b900800000000000000
+      internalID: 698553392922068951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_37
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 196
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adde906145efa3e40800000000000000
+      internalID: 5637097520708054490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_38
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 196
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde445002557e6850800000000000000
+      internalID: 6372159517829123807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_39
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 197
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd07b7410595c0200800000000000000
+      internalID: 147591088272273627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_40
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 197
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2903f1fda91098af0800000000000000
+      internalID: -393781727738253166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 195
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f487d12da674070800000000000000
+      internalID: 8090552706264485633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_42
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 196
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfd9b3ff0c1cf0b0800000000000000
+      internalID: -5693644974064017454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_43
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 196
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1764162e191c0090800000000000000
+      internalID: -8067045215248816356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 146
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553def96a1952c960800000000000000
+      internalID: 7620751489446630229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 148
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fb85624798d4310800000000000000
+      internalID: 1390918991879913341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 150
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275eabc8ce7d3bb90800000000000000
+      internalID: -7227195566026201742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_47
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 148
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6c4f6e5db6cbfb0800000000000000
+      internalID: -4630707750396705026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_48
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 147
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8950ee2c55e44e350800000000000000
+      internalID: 6045042730087613848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_49
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 148
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6deecacafe4f810800000000000000
+      internalID: 1798325676142417629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_50
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 99
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c34673d7603bc70800000000000000
+      internalID: 8985532816404266072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_51
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 97
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e057a2c17eaaf820800000000000000
+      internalID: 2952864309315064039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_52
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 102
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84723168b54d61800800000000000000
+      internalID: 582886691347572552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_53
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 99
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdc637c3cbca8b10800000000000000
+      internalID: 1984622627531443654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_54
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 100
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5094fcfc0e8be9330800000000000000
+      internalID: 3719613617953261829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_55
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 100
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e0d73f54dcd5580800000000000000
+      internalID: -8836681193509548474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 51
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75d07da5e4de84d0800000000000000
+      internalID: -3130330608053463682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 49
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a06fc71dd57cea90800000000000000
+      internalID: -7283316904917245783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_58
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 54
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e5731764b4fd280800000000000000
+      internalID: -9016405163053195622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_59
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 51
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342d26cb5bd734d60800000000000000
+      internalID: 7873274793076904515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_60
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 52
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbc039381c704740800000000000000
+      internalID: 5134240018682924016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_61
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 52
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fc196877e452e20800000000000000
+      internalID: 3325150175148756768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_62
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 4
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b87f519b728cd50800000000000000
+      internalID: 6757694916760406804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 4
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fd39846f14e06e0800000000000000
+      internalID: -1869484269276766447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_64
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 10
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfbc519d050f9220800000000000000
+      internalID: 2494718274418032570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_65
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c94fb66b6cddba0800000000000000
+      internalID: -6062471036573279117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_66
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 4
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cf32d8cde9c43b0800000000000000
+      internalID: -5526867972592501664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tom Sprite Sheet 1_67
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 5
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250c1056d16624fa0800000000000000
+      internalID: -5817975492174561198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tom Sprite Sheet 1_0: 257439674814252191
+      Tom Sprite Sheet 1_1: -4149769644929371415
+      Tom Sprite Sheet 1_10: -849420004132903842
+      Tom Sprite Sheet 1_11: 6840725965455252827
+      Tom Sprite Sheet 1_12: 4398984704603514899
+      Tom Sprite Sheet 1_13: -2519350678631019374
+      Tom Sprite Sheet 1_14: 1714497565291858954
+      Tom Sprite Sheet 1_15: -886590105949227156
+      Tom Sprite Sheet 1_16: -8435869796572322853
+      Tom Sprite Sheet 1_17: -9007918074617918973
+      Tom Sprite Sheet 1_18: 6309324463794080573
+      Tom Sprite Sheet 1_19: -4120326661355591363
+      Tom Sprite Sheet 1_2: -2128706906223042066
+      Tom Sprite Sheet 1_20: 5446425258187765205
+      Tom Sprite Sheet 1_21: -6052986748771268144
+      Tom Sprite Sheet 1_22: 5125623816761301474
+      Tom Sprite Sheet 1_23: 6429559650594440325
+      Tom Sprite Sheet 1_24: 4487472719296238399
+      Tom Sprite Sheet 1_25: -5767029695696288569
+      Tom Sprite Sheet 1_26: 9006201403360110321
+      Tom Sprite Sheet 1_27: 7612913357706595664
+      Tom Sprite Sheet 1_28: 44893106083351501
+      Tom Sprite Sheet 1_29: 4429972833791704321
+      Tom Sprite Sheet 1_3: 7430441689280240230
+      Tom Sprite Sheet 1_30: -8231423990412099025
+      Tom Sprite Sheet 1_31: -5199493349622460820
+      Tom Sprite Sheet 1_32: 5759988780992938053
+      Tom Sprite Sheet 1_33: -4505057932827524200
+      Tom Sprite Sheet 1_34: 6377270734419592377
+      Tom Sprite Sheet 1_35: 3671948125429648098
+      Tom Sprite Sheet 1_36: 698553392922068951
+      Tom Sprite Sheet 1_37: 5637097520708054490
+      Tom Sprite Sheet 1_38: 6372159517829123807
+      Tom Sprite Sheet 1_39: 147591088272273627
+      Tom Sprite Sheet 1_4: -512304317360640706
+      Tom Sprite Sheet 1_40: -393781727738253166
+      Tom Sprite Sheet 1_41: 8090552706264485633
+      Tom Sprite Sheet 1_42: -5693644974064017454
+      Tom Sprite Sheet 1_43: -8067045215248816356
+      Tom Sprite Sheet 1_44: 7620751489446630229
+      Tom Sprite Sheet 1_45: 1390918991879913341
+      Tom Sprite Sheet 1_46: -7227195566026201742
+      Tom Sprite Sheet 1_47: -4630707750396705026
+      Tom Sprite Sheet 1_48: 6045042730087613848
+      Tom Sprite Sheet 1_49: 1798325676142417629
+      Tom Sprite Sheet 1_5: -8205029358060101887
+      Tom Sprite Sheet 1_50: 8985532816404266072
+      Tom Sprite Sheet 1_51: 2952864309315064039
+      Tom Sprite Sheet 1_52: 582886691347572552
+      Tom Sprite Sheet 1_53: 1984622627531443654
+      Tom Sprite Sheet 1_54: 3719613617953261829
+      Tom Sprite Sheet 1_55: -8836681193509548474
+      Tom Sprite Sheet 1_56: -3130330608053463682
+      Tom Sprite Sheet 1_57: -7283316904917245783
+      Tom Sprite Sheet 1_58: -9016405163053195622
+      Tom Sprite Sheet 1_59: 7873274793076904515
+      Tom Sprite Sheet 1_6: -6706561291441742288
+      Tom Sprite Sheet 1_60: 5134240018682924016
+      Tom Sprite Sheet 1_61: 3325150175148756768
+      Tom Sprite Sheet 1_62: 6757694916760406804
+      Tom Sprite Sheet 1_63: -1869484269276766447
+      Tom Sprite Sheet 1_64: 2494718274418032570
+      Tom Sprite Sheet 1_65: -6062471036573279117
+      Tom Sprite Sheet 1_66: -5526867972592501664
+      Tom Sprite Sheet 1_67: -5817975492174561198
+      Tom Sprite Sheet 1_7: -4651820117986476970
+      Tom Sprite Sheet 1_8: 5541864704408840857
+      Tom Sprite Sheet 1_9: -2309625281938727293
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
