@@ -114,7 +114,7 @@ MonoBehaviour:
   capsuleCollider: {fileID: 7344379345474362255}
   playerLayer:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 256
   animator: {fileID: 5481467438246370748}
   characterDirection: {fileID: 4248389924094563854}
   spriteRenderer: {fileID: 8138860167904540285}

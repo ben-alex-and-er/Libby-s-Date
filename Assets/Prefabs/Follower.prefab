@@ -58,14 +58,13 @@ MonoBehaviour:
   maxGravitySpeed: 40
   shortJumpGravityModifier: 3
   groundingForce: -1.5
-  groundedDistanceBuffer: 0.2
+  groundedDistanceBuffer: 0.1
   rb: {fileID: 6533071505549035433}
   capsuleCollider: {fileID: 6501067438190441093}
   playerLayer:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 256
   objectToFollow: {fileID: 0}
-  offset: {x: 0, y: 0, z: 0}
   delay: 0.3
   xLerp: 10
   yLerp: 100

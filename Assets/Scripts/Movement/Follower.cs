@@ -132,8 +132,9 @@ namespace Assets.Scripts.Movement
 
 			var targetIsAbove = newPos.y > transform.position.y + 0.05f;
 
+			var shouldJump = targetIsAbove || (horizontal != Vector2.zero && CollisionInDirection(horizontal));
 
-			fakeInputs = new MovementInputs(targetIsAbove, targetIsAbove, horizontal);
+			fakeInputs = new MovementInputs(shouldJump, shouldJump, horizontal);
 		}
 
 		private int GetAnimationState(float movementSpeed)
