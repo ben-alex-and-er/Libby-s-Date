@@ -1759,7 +1759,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: offset.x
-      value: -0.8
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
+      propertyPath: followRange
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: objectToFollow
@@ -107256,7 +107260,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: offset.x
-      value: -0.8
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
+      propertyPath: followRange
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: objectToFollow
@@ -108091,7 +108099,7 @@ Transform:
   m_GameObject: {fileID: 1551635658}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -147.17, y: -19.51, z: 0}
+  m_LocalPosition: {x: -148.76, y: -19.51, z: 0}
   m_LocalScale: {x: 1, y: 6.22, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -108732,7 +108740,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: offset.x
-      value: -0.8
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
+      propertyPath: followRange
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8460511912375548036, guid: a68efd0d0be202949889147e0e67892e, type: 3}
       propertyPath: objectToFollow

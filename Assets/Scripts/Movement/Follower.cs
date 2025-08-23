@@ -4,14 +4,14 @@ using UnityEngine;
 
 namespace Assets.Scripts.Movement
 {
-	public class Follower : MonoBehaviour
+	using Input;
+
+
+	public class Follower : CharacterMovement
 	{
 		[Header("Follower")]
 		[SerializeField]
 		private Transform objectToFollow;
-
-		[SerializeField]
-		private Vector3 offset;
 
 		[SerializeField]
 		private float delay = 0.3f;
@@ -21,6 +21,9 @@ namespace Assets.Scripts.Movement
 
 		[SerializeField]
 		private float yLerp = 100f;
+
+		[SerializeField]
+		private float followRange = 1.5f;
 
 
 		[Header("Components")]
@@ -39,7 +42,8 @@ namespace Assets.Scripts.Movement
 
 
 		private int currentAnimationState;
-		private bool isDancing = false;
+		private MovementInputs fakeInputs = new();
+		private Vector3 newPos;
 
 
 		public void SetDance(bool isDancing)
@@ -48,7 +52,7 @@ namespace Assets.Scripts.Movement
 		}
 
 
-		void Update()
+		void FixedUpdate()
 		{
 			// Record player position at intervals
 			positionQueue.Enqueue((Time.time, objectToFollow.position));
@@ -56,16 +60,54 @@ namespace Assets.Scripts.Movement
 			if (Time.time > positionQueue.Peek().time + delay)
 			{
 				var (_, position) = positionQueue.Dequeue();
+				newPos = position;
+			}
 
-				MoveTowards(position);
+			CreateFakeInput();
+
+			base.FixedUpdate();
+		}
+
+
+		protected override void Move()
+		{
+			var toTarget = newPos - transform.position;
+
+			if (toTarget.magnitude < followRange)
+			{
+				velocityThisFrame.x = 0f;
+				return;
+			}
+
+			var direction = Mathf.Sign(newPos.x - transform.position.x);
+
+			velocityThisFrame.x = Mathf.MoveTowards(
+				velocityThisFrame.x,
+				direction * movementSpeed,
+				acceleration * Time.fixedDeltaTime);
+		}
+
+		protected override void Jump()
+		{
+			if (!shortJump && !isGrounded && !fakeInputs.JumpHeld && rb.linearVelocity.y > 0)
+			{
+				shortJump = true;
+			}
+
+			if (isGrounded && (fakeInputs.JumpDown || fakeInputs.JumpHeld) && fakeInputs.Move != Vector2.zero)
+			{
+				shortJump = false;
+				velocityThisFrame.y = jumpForce;
 			}
 		}
 
-		private void MoveTowards(Vector3 position)
+		protected override void ChangeAnimations()
 		{
-			var adjustedPosition = position + offset;
+			var direction = Mathf.Sign(newPos.x - transform.position.x);
 
-			var state = GetAnimationState(adjustedPosition);
+			var movementSpeedAbs = Mathf.Abs(velocityThisFrame.x);
+
+			var state = GetAnimationState(movementSpeedAbs);
 
 			if (state != currentAnimationState)
 			{
@@ -73,28 +115,33 @@ namespace Assets.Scripts.Movement
 				currentAnimationState = state;
 			}
 
-			if (!IsVeryClose(adjustedPosition.x, transform.position.x))
+			if (movementSpeedAbs > 0.05f)
 			{
-				spriteRenderer.flipX = adjustedPosition.x <= transform.position.x;
+				spriteRenderer.flipX = direction < 0;
 			}
-
-			var x = Mathf.Lerp(transform.position.x, adjustedPosition.x, Time.deltaTime * xLerp);
-			var y = Mathf.Lerp(transform.position.y, adjustedPosition.y, Time.deltaTime * yLerp);
-
-			transform.position = new Vector3(x, y);
 		}
 
-		private int GetAnimationState(Vector3 target)
+
+		private void CreateFakeInput()
+		{
+			var toTarget = newPos - transform.position;
+
+			var horizontal = Mathf.Abs(toTarget.x) > followRange
+				? new Vector2(Mathf.Sign(toTarget.x), 0)
+				: Vector2.zero;
+
+			var targetIsAbove = newPos.y > transform.position.y + 0.05f;
+
+
+			fakeInputs = new MovementInputs(targetIsAbove, targetIsAbove, horizontal);
+		}
+
+		private int GetAnimationState(float movementSpeed)
 		{
 			if (isDancing)
 				return dancing;
 
-			var state = IsVeryClose(target.x, transform.position.x) ? idle : running;
-
-			return state;
+			return movementSpeed > 0.01f ? running : idle;
 		}
-
-		private bool IsVeryClose(float float1, float float2)
-			=> Mathf.Abs(float1 - float2) < 0.01f;
 	}
 }
