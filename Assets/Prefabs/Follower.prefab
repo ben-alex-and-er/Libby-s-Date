@@ -68,7 +68,8 @@ MonoBehaviour:
   delay: 0.3
   xLerp: 10
   yLerp: 100
-  followRange: 1.5
+  followRange: 1
+  minSpeedPercentage: 1
   animator: {fileID: 8140848744544338574}
   spriteRenderer: {fileID: 1118058180444588714}
 --- !u!212 &1118058180444588714

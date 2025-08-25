@@ -25,6 +25,9 @@ namespace Assets.Scripts.Movement
 		[SerializeField]
 		private float followRange = 1.5f;
 
+		[SerializeField]
+		private float minSpeedPercentage = 1f;
+
 
 		[Header("Components")]
 		[SerializeField]
@@ -51,6 +54,25 @@ namespace Assets.Scripts.Movement
 			this.isDancing = isDancing;
 		}
 
+		public void ToggleVisibility(bool enabled)
+		{
+			spriteRenderer.enabled = enabled;
+
+			if (!enabled)
+				return;
+
+			// Reset queue and physics state
+			positionQueue.Clear();
+
+			Vector3 now = objectToFollow.position;
+			positionQueue.Enqueue((Time.time - delay, now));
+			newPos = now;
+
+			rb.linearVelocity = Vector2.zero;
+			velocityThisFrame = Vector2.zero;
+			shortJump = false;
+		}
+
 
 		void FixedUpdate()
 		{
@@ -71,21 +93,26 @@ namespace Assets.Scripts.Movement
 
 		protected override void Move()
 		{
-			var toTarget = newPos - transform.position;
+			var toTarget = newPos.x - transform.position.x;
+			var absDelta = Mathf.Abs(toTarget);
 
-			if (toTarget.magnitude < followRange)
+			if (absDelta <= followRange)
 			{
 				velocityThisFrame.x = 0f;
 				return;
 			}
 
-			var direction = Mathf.Sign(newPos.x - transform.position.x);
+			var direction = Mathf.Sign(toTarget);
+
+			var distanceFactor = Mathf.InverseLerp(followRange, followRange * 2f, absDelta);
+			distanceFactor = Mathf.Clamp(distanceFactor, minSpeedPercentage, 1f);
 
 			velocityThisFrame.x = Mathf.MoveTowards(
 				velocityThisFrame.x,
-				direction * movementSpeed,
+				direction * movementSpeed * distanceFactor,
 				acceleration * Time.fixedDeltaTime);
 		}
+
 
 		protected override void Jump()
 		{
@@ -124,17 +151,18 @@ namespace Assets.Scripts.Movement
 
 		private void CreateFakeInput()
 		{
-			var toTarget = newPos - transform.position;
+			var toTarget = objectToFollow.position.x - transform.position.x;
 
-			var horizontal = Mathf.Abs(toTarget.x) > followRange
-				? new Vector2(Mathf.Sign(toTarget.x), 0)
-				: Vector2.zero;
+			var horizontal = Mathf.Abs(toTarget) <= followRange
+				? Vector2.zero
+				: new Vector2(Mathf.Sign(toTarget), 0f);
 
-			var targetIsAbove = newPos.y > transform.position.y + 0.05f;
+			var targetIsAbove = objectToFollow.position.y > transform.position.y + 0.5f;
+			var obstacleAhead = horizontal != Vector2.zero && CollisionInDirection(horizontal);
 
-			var shouldJump = targetIsAbove || (horizontal != Vector2.zero && CollisionInDirection(horizontal));
+			var jump = targetIsAbove || obstacleAhead;
 
-			fakeInputs = new MovementInputs(shouldJump, shouldJump, horizontal);
+			fakeInputs = new MovementInputs(jump, jump, horizontal);
 		}
 
 		private int GetAnimationState(float movementSpeed)
